@@ -1,0 +1,15 @@
+.section {
+  width: 100%;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+#applications .container {
+  height: 2200px;
+}
+#devices .container {
+  height: 950px;
+}
