@@ -20,7 +20,7 @@
 	<section id="core-features"  class="section scroll">
 		<div class="container">
 			<div class="content">
-				<h2>Core Features</h2>
+				<h2>Hello Core Features</h2>
 				<ul>
 					<li>works with any platform/size smart device</li>
 					<li>Bluetooth connective</li>
