@@ -2,115 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3399fe5f-8009-4336-9acf-fe2a0844019f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/Scrollify-master.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/.github/ISSUE_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/.github/PULL_REQUEST_TEMPLATE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/dist/jquery.fullpage.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/dist/jquery.fullpage.extensions.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/dist/jquery.fullpage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/dist/jquery.fullpage.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/dist/jquery.fullpage.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/dist/jquery.fullpage.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/dist/jquery.fullpage.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/apple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/autoHeight.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/autoplayVideoAndAudio.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/backgroundVideo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/backgrounds.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/backgroundsFixed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/callbacks.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/continuous.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/css3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/demoPage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/easing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/examples.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/examples.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/fixedHeaders.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/gradientBackgrounds.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/bg3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/bg4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/bg5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/compatible.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/copyright.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/example.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/example2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/flowers.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/flowers.webm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/fullPage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/horse.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/horse.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/intro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/iphone-blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/iphone-green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/iphone-red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/iphone-two.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/iphone-yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/iphone1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/iphone2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/iphone3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/iphone4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/slider.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/tablets.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/used-by-fullpage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/looping.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/methods.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/navigationH.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/navigationV.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/noAnchor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/normalScroll.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/oneSection.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/responsiveAutoHeight.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/responsiveHeight.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/responsiveWidth.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/scrollBar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/scrolling.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/scrollingSpeed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/simple.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/jquery.fullPage.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/jquery.fullPage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/jquery.fullPage.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/pure javascript (Alpha)/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/pure javascript (Alpha)/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/pure javascript (Alpha)/javascript.fullPage.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/pure javascript (Alpha)/javascript.fullPage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/pure javascript (Alpha)/javascript.fullPage.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/tests/functions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/tests/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/vendors/jquery.easings.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/vendors/scrolloverflow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/vendors/scrolloverflow.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/Demo/back-phone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/Demo/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/Demo/jquery.onepage-scroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/Demo/onepage-scroll.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/Demo/phones.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/Demo/tilted-phone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/jquery.onepage-scroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/jquery.onepage-scroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/onepage-scroll.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/footer.php" afterPath="$PROJECT_DIR$/inc/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/header.php" afterPath="$PROJECT_DIR$/inc/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/init.js" afterPath="$PROJECT_DIR$/js/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/_layout_lg.scss" afterPath="$PROJECT_DIR$/scss/partials/_layout_lg.scss" />
     </list>
     <ignored path="zetus-lapetus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -397,12 +289,20 @@
       <option name="presentableId" value="Default" />
       <updated>1485292991527</updated>
       <workItem from="1485292993512" duration="43451000" />
-      <workItem from="1485745028238" duration="840000" />
+      <workItem from="1485745028238" duration="928000" />
     </task>
+    <task id="LOCAL-00001" summary="Version 1.1">
+      <created>1485749086305</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1485749086305</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44291000" />
+    <option name="totallyTimeSpent" value="44379000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -447,6 +347,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Version 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -574,6 +478,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5702">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
