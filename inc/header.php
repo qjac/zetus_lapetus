@@ -12,17 +12,26 @@
 <body>
 	<header data-section-name="header" class="header scroll">
 		<div class="container">
-			<nav class="menu header-menu">
-				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="">About</a></li>
-					<li><a href="">Products</a></li>
-					<li><a href="">Contact</a></li>
-				</ul>
-			</nav><!-- .menu .header-menu -->
-			<div class="scroll-arrow">
-				<a href="#" class="scroll-btn"><i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
-				</a>
-			</div>
-		</div><!-- .container -->
-	</header><!-- .header -->
+			<div class="menu-container">
+				<div id="hamburger">
+					<div class="hamburger-box">
+						<div class="hamburger-inner"></div>
+					</div><!-- .hamburger-box -->
+				</div><!-- #hamburger -->
+				<nav class="menu main-menu">
+					<ul>
+						<li class="menu-item"><a href="">Home</a></li>
+						<li class="menu-item"><a href="">About</a></li>
+						<li class="menu-item dropdown"><a href="">Products</a>
+							<ul>
+								<li class="sub-menu-item"><a href="#">Accessories</a></li>
+								<li class="sub-menu-item"><a href="#">Gadgets</a></li>
+								<li class="sub-menu-item"><a href="#">Fun</a></li>
+							</ul>
+						</li>
+						<li class="menu-item"><a href="#" class="scroll-to-footer">Contact</a></li>
+					</ul>
+				</nav><!-- .menu .header-menu -->
+			</div><!-- .menu-container -->
+
+

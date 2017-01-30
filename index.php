@@ -1,4 +1,21 @@
 <?php require_once('inc/header.php'); ?>
+	<div class="container">
+		<div id="vrview"></div>
+		<iframe width="100%"
+		        height="300px"
+		        allowfullscreen
+		        frameborder="0"
+		        src="img/vr4.jpg">
+		</iframe>
+		<div class="content">
+			<h1>Great things with VR</h1>
+		</div>
+		<div class="scroll-arrow">
+			<a href="#" class="scroll-btn"><i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
+			</a>
+		</div>
+	</div><!-- .container -->
+</header><!-- .header -->
 <main class="main">
 	<section id="core-features"  class="section scroll">
 		<div class="container">
@@ -13,11 +30,11 @@
 					<li>wireless molded hand remotes</li>
 					<li>competitive affordable pricing</li>
 				</ul>
-			</div>
+			</div><!-- .content -->
 			<div class="scroll-arrow">
 				<a href="#" class="scroll-btn"><i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
 				</a>
-			</div>
+			</div><!-- .scroll-arrow -->
 		</div><!-- .container -->
 	</section><!-- #section0 .section -->
 	<section id="applications" class="scroll section">
@@ -28,7 +45,7 @@
 			</div><!-- .scroll-arrow -->
 			<header class="content-header">
 				<h2>Applications</h2>
-			</header>
+			</header><!-- .content-header -->
 			<div class="row">
 				<div class="quarter">
 					<img src="http://placehold.it/270x110" alt="#">
@@ -87,7 +104,7 @@
 			<div class="row">
 				<div class="quarter">
 					<img src="http://placehold.it/270x110" alt="#">
-				</div>
+				</div><!-- .quarter -->
 				<div class="threequarter">
 					<i class="fa fa-chevron-right fa-4x" aria-hidden="true"></i>
 					<h3>Mental health and meditation</h3>
@@ -100,7 +117,7 @@
 			<div class="row">
 				<div class="quarter">
 					<img src="http://placehold.it/270x110" alt="#">
-				</div>
+				</div><!-- .quarter -->
 				<div class="threequarter">
 					<i class="fa fa-chevron-right fa-4x" aria-hidden="true"></i>
 					<h3>Shopping</h3>

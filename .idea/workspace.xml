@@ -1,7 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3399fe5f-8009-4336-9acf-fe2a0844019f" name="Default" comment="" />
+    <list default="true" id="3399fe5f-8009-4336-9acf-fe2a0844019f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/Scrollify-master.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/.github/ISSUE_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/.github/PULL_REQUEST_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/dist/jquery.fullpage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/dist/jquery.fullpage.extensions.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/dist/jquery.fullpage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/dist/jquery.fullpage.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/dist/jquery.fullpage.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/dist/jquery.fullpage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/dist/jquery.fullpage.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/apple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/autoHeight.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/autoplayVideoAndAudio.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/backgroundVideo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/backgrounds.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/backgroundsFixed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/callbacks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/continuous.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/css3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/demoPage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/easing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/examples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/examples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/fixedHeaders.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/gradientBackgrounds.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/bg2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/bg3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/bg4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/bg5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/compatible.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/copyright.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/example.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/example2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/flowers.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/flowers.webm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/fullPage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/horse.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/horse.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/intro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/iphone-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/iphone-green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/iphone-red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/iphone-two.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/iphone-yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/iphone1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/iphone2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/iphone3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/iphone4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/slider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/tablets.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/imgs/used-by-fullpage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/looping.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/navigationH.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/navigationV.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/noAnchor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/normalScroll.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/oneSection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/responsiveAutoHeight.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/responsiveHeight.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/responsiveWidth.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/scrollBar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/scrolling.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/scrollingSpeed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/examples/simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/jquery.fullPage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/jquery.fullPage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/jquery.fullPage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/pure javascript (Alpha)/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/pure javascript (Alpha)/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/pure javascript (Alpha)/javascript.fullPage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/pure javascript (Alpha)/javascript.fullPage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/pure javascript (Alpha)/javascript.fullPage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/tests/functions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/tests/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/vendors/jquery.easings.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/vendors/scrolloverflow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fullPage.js-master/vendors/scrolloverflow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/Demo/back-phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/Demo/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/Demo/jquery.onepage-scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/Demo/onepage-scroll.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/Demo/phones.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/Demo/tilted-phone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/jquery.onepage-scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/jquery.onepage-scroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/onepage-scroll-master/onepage-scroll.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/footer.php" afterPath="$PROJECT_DIR$/inc/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/header.php" afterPath="$PROJECT_DIR$/inc/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/init.js" afterPath="$PROJECT_DIR$/js/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/_layout_lg.scss" afterPath="$PROJECT_DIR$/scss/partials/_layout_lg.scss" />
+    </list>
     <ignored path="zetus-lapetus.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -20,54 +130,12 @@
     <favorites_list name="zetus-lapetus" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="134" column="44" selection-start-line="134" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inc/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-              <folding>
-                <element signature="e#2886#3117#1#HTML" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="23" column="106" selection-start-line="23" selection-start-column="106" selection-end-line="23" selection-end-column="106" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/init.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_layout_lg.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/partials/_layout_lg.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="495">
+              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -83,7 +151,40 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="_layout_lg.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/partials/_layout_lg.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -98,12 +199,14 @@
         <option value="$PROJECT_DIR$/vendor/fullPage.js-master/examples/simple.html" />
         <option value="$PROJECT_DIR$/vendor/onepage-scroll-master/Demo/demo.html" />
         <option value="$PROJECT_DIR$/scss/style.scss" />
-        <option value="$PROJECT_DIR$/inc/header.php" />
         <option value="$PROJECT_DIR$/scss/partials/_base.scss" />
-        <option value="$PROJECT_DIR$/js/init.js" />
-        <option value="$PROJECT_DIR$/scss/partials/_layout_lg.scss" />
+        <option value="$PROJECT_DIR$/vendor/hamburger-test.html" />
+        <option value="$PROJECT_DIR$/vendor/hamburger.css" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/inc/header.php" />
         <option value="$PROJECT_DIR$/inc/footer.php" />
+        <option value="$PROJECT_DIR$/scss/partials/_layout_lg.scss" />
+        <option value="$PROJECT_DIR$/js/init.js" />
       </list>
     </option>
   </component>
@@ -115,9 +218,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6.10" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="582" />
+    <option name="x" value="46" />
     <option name="y" value="23" />
-    <option name="width" value="695" />
+    <option name="width" value="1234" />
     <option name="height" value="697" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -145,7 +248,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -161,6 +264,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="zetus-lapetus" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zetus-lapetus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zetus-lapetus" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -198,7 +315,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,6 +357,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -273,12 +396,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1485292991527</updated>
-      <workItem from="1485292993512" duration="18849000" />
+      <workItem from="1485292993512" duration="43451000" />
+      <workItem from="1485745028238" duration="840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18849000" />
+    <option name="totallyTimeSpent" value="44291000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -290,26 +414,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="582" y="23" width="695" height="697" extended-state="0" />
+    <frame x="46" y="23" width="1234" height="697" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2633997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17617449" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8595041" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8595041" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -329,311 +453,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/footer.php">
+    <entry file="file://$PROJECT_DIR$/inc/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/partials/_layout_md.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/partials/_layout_sm.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/style.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/fullPage.js-master/examples/apple.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding>
-            <marker date="1476267060000" expanded="true" signature="5776:5830" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/fullPage.js-master/dist/jquery.fullpage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46373">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1476267060000" expanded="true" signature="83623:83664" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_normalize.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6375">
-          <caret line="425" column="0" selection-start-line="425" selection-start-column="0" selection-end-line="425" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/scrolloverflow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31673">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.fullpage.extensions.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/fullPage.js-master/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1260">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1476267060000" expanded="true" signature="6224:6395" ph="..." />
-              <marker date="1476267060000" expanded="true" signature="6818:6969" ph="..." />
-              <marker date="1476267060000" expanded="true" signature="7284:7315" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="7439:9171" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="7466:9167" ph="{&quot;menu&quot;: '##menu'...}" />
-              <marker date="1476267060000" expanded="true" signature="9782:9868" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="9809:9864" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="10413:10648" ph="..." />
-              <marker date="1476267060000" expanded="true" signature="13944:14018" ph="..." />
-              <marker date="1476267060000" expanded="true" signature="14285:14359" ph="..." />
-              <marker date="1476267060000" expanded="true" signature="15955:16031" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="24653:24988" ph="..." />
-              <marker date="1476267060000" expanded="true" signature="25032:25130" ph="{&quot;menu&quot;: '##myMenu'...}" />
-              <marker date="1476267060000" expanded="true" signature="29708:29792" ph="/*...*/" />
-              <marker date="1476267060000" expanded="true" signature="30264:30348" ph="/*...*/" />
-              <marker date="1476267060000" expanded="true" signature="36182:36526" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="36304:36523" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="36373:36417" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="36475:36519" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="37019:37305" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="37069:37302" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="37173:37213" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="37258:37298" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="37475:37638" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="37525:37635" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="37607:37631" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="37982:38101" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="38009:38098" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="38276:38394" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="38303:38391" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="38748:38843" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="38791:38840" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="39494:40011" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="39647:40008" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="39771:39810" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="39815:39915" ph="//..." />
-              <marker date="1476267060000" expanded="true" signature="39964:40004" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="40668:41118" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="40753:41115" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="40908:40953" ph="{...}" />
-              <marker date="1476267060000" expanded="true" signature="41072:41111" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/fullPage.js-master/examples/examples.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/jquery.fullpage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="184" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="228" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/fullPage.js-master/examples/backgrounds.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-497">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1476267060000" expanded="true" signature="1814:1868" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/fullPage.js-master/examples/simple.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/fullPage.js-master/examples/examples.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/fullPage.js-master/tests/functions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.fullpage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8925">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1476267060000" expanded="true" signature="83623:83664" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/fullPage.js-master/examples/scrollBar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="97" column="16" selection-start-line="97" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.onepage-scroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/onepage-scroll-master/Demo/onepage-scroll.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/modules/_functions.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/onepage-scroll.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5702">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/onepage-scroll-master/Demo/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="371" column="5" selection-start-line="21" selection-start-column="4" selection-end-line="371" selection-end-column="5" />
-          <folding>
-            <element signature="e#10306#10310#0" expanded="true" />
-            <element signature="e#10326#10330#0" expanded="true" />
-            <element signature="e#10348#10352#0" expanded="true" />
-            <element signature="e#10359#10363#0" expanded="true" />
-            <element signature="e#10366#10370#0" expanded="true" />
-            <element signature="e#10378#10382#0" expanded="true" />
-            <element signature="e#10400#10404#0" expanded="true" />
-            <element signature="e#10411#10415#0" expanded="true" />
-            <element signature="e#10418#10422#0" expanded="true" />
-            <element signature="e#10430#10434#0" expanded="true" />
-            <element signature="e#10471#10475#0" expanded="true" />
-            <element signature="e#10479#10483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="495">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -646,45 +469,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/init.js">
+    <entry file="file://$PROJECT_DIR$/inc/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/partials/_layout_lg.scss">
+    <entry file="file://$PROJECT_DIR$/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php" />
+    <entry file="file://$PROJECT_DIR$/about.php" />
+    <entry file="file://$PROJECT_DIR$/scss/partials/_layout_md.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/partials/_layout_sm.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/style.css.map" />
+    <entry file="file://$PROJECT_DIR$/vendor/fullPage.js-master/examples/apple.html" />
+    <entry file="file://$PROJECT_DIR$/vendor/fullPage.js-master/dist/jquery.fullpage.js" />
+    <entry file="file://$PROJECT_DIR$/scss/modules/_normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6375">
+          <caret line="425" column="0" selection-start-line="425" selection-start-column="0" selection-end-line="425" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scrolloverflow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31673">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.fullpage.extensions.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fullPage.js-master/README.md" />
+    <entry file="file://$PROJECT_DIR$/vendor/fullPage.js-master/examples/examples.css" />
+    <entry file="file://$PROJECT_DIR$/css/jquery.fullpage.css" />
+    <entry file="file://$PROJECT_DIR$/vendor/fullPage.js-master/examples/backgrounds.html" />
+    <entry file="file://$PROJECT_DIR$/vendor/fullPage.js-master/examples/simple.html" />
+    <entry file="file://$PROJECT_DIR$/vendor/fullPage.js-master/examples/examples.js" />
+    <entry file="file://$PROJECT_DIR$/vendor/fullPage.js-master/tests/functions.html" />
+    <entry file="file://$PROJECT_DIR$/js/jquery.fullpage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8925">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fullPage.js-master/examples/scrollBar.html" />
+    <entry file="file://$PROJECT_DIR$/js/jquery.onepage-scroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/onepage-scroll-master/Demo/onepage-scroll.css" />
+    <entry file="file://$PROJECT_DIR$/scss/modules/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/onepage-scroll.css" />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5702">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/onepage-scroll-master/Demo/demo.html" />
+    <entry file="file://$PROJECT_DIR$/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/hamburger-test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="190" column="28" selection-start-line="190" selection-start-column="28" selection-end-line="190" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/hamburger.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="458" column="0" selection-start-line="458" selection-start-column="0" selection-end-line="477" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="134" column="44" selection-start-line="134" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+        <state relative-caret-position="-1952">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/modules/_functions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="23" column="106" selection-start-line="23" selection-start-column="106" selection-end-line="23" selection-end-column="106" />
+        <state relative-caret-position="165">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/footer.php">
+    <entry file="file://$PROJECT_DIR$/scss/partials/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-          <folding>
-            <element signature="e#2886#3117#1#HTML" expanded="false" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/partials/_layout_lg.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
