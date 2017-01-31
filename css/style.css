@@ -394,63 +394,53 @@ th {
   padding: 0;
 }
 
-.section:nth-child(even) {
-  background-color: gray;
+/*
+ * GLOBALS
+------------------------------------------------------*/
+* {
+  box-sizing: border-box;
 }
 
 a {
   text-decoration: none;
+  font-family: 'Roboto', serif, sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+a:visited {
   color: black;
 }
 
-.section {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem 0;
-}
-
-#applications .container {
-  height: 2200px;
-}
-
-#devices .container {
-  height: 950px;
-}
-
-.footer > .container {
-  height: 2000px;
-}
-
+/*
+ * HEADER
+------------------------------------------------------*/
 .header {
-  background: url("https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/0/8/8905/red-rocks-park-o.jpg") no-repeat center center fixed;
-  background-size: 170%;
+  background: url("../img/header-bg.jpg") no-repeat;
   top: 0;
   width: 100%;
   z-index: 0;
   height: 100%;
-  background-size: calc(100% + 50px);
+  background-size: calc(100% + 500px);
 }
 
-.scroll-arrow a {
-  border: 1px solid #cccccc;
-  border-radius: 50%;
-  background-color: white;
-  padding: 18px 15px 22px 15px;
+.header .container:nth-child(2) {
+  border-left: 2px dashed lightyellow;
 }
 
-.scroll-arrow a i {
-  vertical-align: middle;
-  text-align: center;
+.header .section {
+  background: #0a1f25;
+}
+
+.logo {
+  float: left;
+  overflow: hidden;
 }
 
 .main-menu {
   display: inline-block;
   float: right;
+  overflow: hidden;
 }
 
 .main-menu ul {
@@ -461,39 +451,30 @@ a {
 
 .main-menu ul .menu-item {
   display: inline-block;
-  margin-top: 15px;
+  padding: 18px 15px 16px 15px;
 }
 
-.main-menu ul .dropdown > ul {
-  display: none;
+.main-menu .menu-item a:link {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 18px 15px 17px 15px;
 }
 
-.main-menu ul .dropdown:hover ul {
-  background: #ffffff;
-  display: block;
-  position: absolute;
-  width: 200px;
-  margin-top: 15px;
+.main-menu .menu-item a:visited {
+  color: #cccccc;
 }
 
-.main-menu ul .dropdown > ul {
-  border: thin solid gray;
+.main-menu .menu-item a:active {
+  background-color: #0A3247;
+  color: #f2694b;
 }
 
-.main-menu ul .dropdown > ul li {
-  display: block;
-  color: black;
-  padding: 15px;
-  border-bottom: thin solid #cccccc;
-}
-
-.main-menu ul .dropdown > ul li a {
-  padding: 15px 25px;
-}
-
-.main-menu .menu-item a {
-  padding: 15px 25px;
-  border: thin solid gray;
+.main-menu .menu-item a:hover {
+  transition-property: background-color, color, filter;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  color: #0A3247;
+  background-color: #f2694b;
 }
 
 .main-menu .dropdown > li a {
@@ -506,7 +487,7 @@ a {
   display: inline-block;
   float: right;
   cursor: pointer;
-  transition-property: opacity, filter;
+  transition-property: background-color, filter;
   transition-duration: 0.15s;
   transition-timing-function: linear;
   font: inherit;
@@ -519,7 +500,7 @@ a {
 }
 
 #hamburger:hover {
-  opacity: 0.7;
+  background-color: #f2694b;
 }
 
 .hamburger-box {
@@ -540,7 +521,7 @@ a {
 .hamburger-inner::after {
   width: 40px;
   height: 4px;
-  background-color: #000;
+  background-color: #ffffff;
   border-radius: 4px;
   position: absolute;
   transition-property: transform;
@@ -594,6 +575,56 @@ a {
   bottom: 0;
   transform: rotate(45deg);
   transition: bottom 0.1s 0.12s ease-out, transform 0.1s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/*
+ * ASSETS
+------------------------------------------------------*/
+.scroll-arrow a {
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+  background-color: white;
+  padding: 18px 15px 22px 15px;
+}
+
+.scroll-arrow a i {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.device-icon {
+  font-size: 20em;
+}
+
+.section:nth-child(even) {
+  background-color: gray;
+}
+
+/*
+ * LAYOUT
+------------------------------------------------------*/
+.section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  clear: both;
+  overflow: hidden;
+}
+
+#applications .container {
+  height: 2200px;
+}
+
+#devices .container {
+  height: 950px;
+}
+
+.footer > .container {
+  height: 2000px;
 }
 
 /*# sourceMappingURL=style.css.map */

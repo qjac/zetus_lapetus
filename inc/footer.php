@@ -1,28 +1,25 @@
-		<div class="row">
-			<div class="container">
-
-			</div>
-			<div class="quarter">
-				<h2>Available at</h2>
-			</div><!-- .quarter -->
-			<div class="quarter">
-				<a href="#">
-					<img src="http://placehold.it/150x150">
-				</a>
-			</div><!-- .quarter -->
-			<div class="quarter">
-				<a href="#">
-					<img src="http://placehold.it/150x150">
-				</a>
-			</div><!-- .quarter -->
-			<div class="quarter">
-				<a href="#">
-					<img src="http://placehold.it/150x150">
-				</a>
-			</div><!-- .quarter -->
-		</div>
 		<footer class="footer scroll" data-section-name="footer">
 			<section class="section">
+				<div class="container">
+					<div class="quarter">
+						<h2>Available at</h2>
+					</div><!-- .quarter -->
+					<div class="quarter">
+						<a href="#">
+							<img src="http://placehold.it/150x150">
+						</a>
+					</div><!-- .quarter -->
+					<div class="quarter">
+						<a href="#">
+							<img src="http://placehold.it/150x150">
+						</a>
+					</div><!-- .quarter -->
+					<div class="quarter">
+						<a href="#">
+							<img src="http://placehold.it/150x150">
+						</a>
+					</div><!-- .quarter -->
+				</div>
 				<div class="container">
 					<div class="scroll-arrow">
 						<a href="#" class="scroll-to-top"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i>

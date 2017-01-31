@@ -1,19 +1,10 @@
 <?php require_once('inc/header.php'); ?>
 	<div class="container">
-		<div id="vrview"></div>
-		<iframe width="100%"
-		        height="300px"
-		        allowfullscreen
-		        frameborder="0"
-		        src="img/vr4.jpg">
-		</iframe>
-		<div class="content">
-			<h1>Great things with VR</h1>
-		</div>
 		<div class="scroll-arrow">
 			<a href="#" class="scroll-btn"><i class="fa fa-chevron-down fa-2x" aria-hidden="true"></i>
 			</a>
 		</div>
+		<h1>a virtual reality headset that pairs with IOS + Android platforms</h1>
 	</div><!-- .container -->
 </header><!-- .header -->
 <main class="main">
@@ -149,11 +140,11 @@
 			<h2>built for Apple IOS + Android</h2>
 			<h3> shop for the accessories you’ll need to get started at Zetus Lapetus retail shop</h3>
 			<div class="half">
-				<img src="http://placehold.it/400x400">
+				<i class="fa fa-apple device-icon" aria-hidden="true"></i>
 				<a href="#" class="btn">Apple VR Package</a>
 			</div>
 			<div class="half">
-				<img src="http://placehold.it/400x400">
+				<i class="fa fa-android device-icon" aria-hidden="true"></i>
 				<a href="#" class="btn">Android VR Package</a>
 			</div>
 		</div><!-- .container -->
