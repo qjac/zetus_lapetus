@@ -72,7 +72,6 @@ a:visited {
   padding: 0;
   border: none !important;
 }
-
 #hamburger {
   padding: 15px 15px;
   display: inline-block;
@@ -156,7 +155,15 @@ a:visited {
 .device-icon {
   font-size: 20em;
 }
-
 .section:nth-child(even) {
   background-color: gray;
 }
+.floating-img {
+  margin-top: -50px;
+  width: 90%;
+  height: auto;
+}
+
+$col: 8.33333333333333%;
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 780px;

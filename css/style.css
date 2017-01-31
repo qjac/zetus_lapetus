@@ -600,8 +600,116 @@ a:visited {
   background-color: gray;
 }
 
+.floating-img {
+  margin-top: -50px;
+  width: 90%;
+  height: auto;
+}
+
+.s1 {
+  width: 8.33333%;
+}
+
+.s2 {
+  width: 16.66667%;
+}
+
+.s3 {
+  width: 25.0%;
+}
+
+.s4 {
+  width: 33.33333%;
+}
+
+.s5 {
+  width: 41.66667%;
+}
+
+.s6 {
+  width: 50.0%;
+}
+
+.s7 {
+  width: 58.33333%;
+}
+
+.s8 {
+  width: 66.66667%;
+}
+
+.s9 {
+  width: 75.0%;
+}
+
+.s10 {
+  width: 83.33333%;
+}
+
+.s11 {
+  width: 91.66667%;
+}
+
+.s12 {
+  width: 100.0%;
+}
+
+@media only screen and (max-width: 480px) {
+  .off-mobile {
+    display: none;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 780px) {
+  .m1 {
+    width: 8.33333%;
+  }
+
+  .m2 {
+    width: 16.66667%;
+  }
+
+  .m3 {
+    width: 25.0%;
+  }
+
+  .m4 {
+    width: 33.33333%;
+  }
+
+  .m5 {
+    width: 41.66667%;
+  }
+
+  .m6 {
+    width: 50.0%;
+  }
+
+  .m7 {
+    width: 58.33333%;
+  }
+
+  .m8 {
+    width: 66.66667%;
+  }
+
+  .s9 {
+    width: 75.0%;
+  }
+
+  .m10 {
+    width: 83.33333%;
+  }
+
+  .m11 {
+    width: 91.66667%;
+  }
+
+  .m12 {
+    width: 100.0%;
+  }
+}
 /*
- * LAYOUT
+ * GRID
 ------------------------------------------------------*/
 .section {
   width: 100%;
@@ -609,22 +717,72 @@ a:visited {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 80%;
   margin: 0 auto;
   clear: both;
   overflow: hidden;
 }
 
-#applications .container {
-  height: 2200px;
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-#devices .container {
-  height: 950px;
+.col {
+  float: left;
+  display: block;
+  position: relative;
 }
 
-.footer > .container {
-  height: 2000px;
+@media screen and (min-width: 780px) {
+  .l1 {
+    width: 8.33333%;
+  }
+
+  .l2 {
+    width: 16.66667%;
+  }
+
+  .l3 {
+    width: 25.0%;
+  }
+
+  .l4 {
+    width: 33.33333%;
+  }
+
+  .l5 {
+    width: 41.66667%;
+  }
+
+  .l6 {
+    width: 50.0%;
+  }
+
+  .l7 {
+    width: 58.33333%;
+  }
+
+  .l8 {
+    width: 66.66667%;
+  }
+
+  .l9 {
+    width: 75.0%;
+  }
+
+  .l10 {
+    width: 83.33333%;
+  }
+
+  .l11 {
+    width: 91.66667%;
+  }
+
+  .l12 {
+    width: 100.0%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
