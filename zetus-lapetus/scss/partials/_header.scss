@@ -10,6 +10,18 @@
   height: 100%;
   background-size: calc(100% + 500px);
 }
+
+.header a {
+    text-decoration: none;
+    font: regular 2rem $font-body;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+  	:visited {
+	  color: $dark;
+	}
+}
+
 .header .container:nth-child(2) {
   border-left: 2px dashed lightyellow;
 }

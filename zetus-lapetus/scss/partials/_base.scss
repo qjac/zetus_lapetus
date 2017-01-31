@@ -5,16 +5,50 @@
   box-sizing: border-box;
 }
 
+/* TYPE
+-------------------------------------------------------*/
+body {
+  font: 300 1rem $font-body;
+  color: $dark;
+}
 
+h1 {
+  font: bold 3rem $font-heading;
+  color: $light;
+}
+
+h2 {
+  color: $red;
+  font: normal 2.5rem $font-heading;
+  text-transform: uppercase;
+  margin-top: .25em;
+  margin-bottom: .25em;
+}
+
+h3 {
+  color: $purple;
+  font: bold 1.75rem $font-heading;
+  text-transform: uppercase;
+  margin-top: .25em;
+  margin-bottom: .1em;
+}
+
+h4 {
+  color: $dark;
+  font: regular 1.5rem $font-heading;
+  text-transform: uppercase;
+  margin-top: .25em;
+  margin-bottom: .1em;
+}
 
 a {
   text-decoration: none;
-  font-family: 'Roboto', serif, sans-serif;
-  font-weight: 900;
-  letter-spacing: 2px;
-}
-a:visited {
-  color: black;
+  font-weight: bold;
+  color: $teal;
+
+  :visited {
+	color: $purple;
+  }
 }
 
 

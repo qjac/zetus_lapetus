@@ -394,6 +394,9 @@ th {
   padding: 0;
 }
 
+/*variables*/
+/*colors*/
+/*type*/
 /*
  * GLOBALS
 ------------------------------------------------------*/
@@ -401,15 +404,49 @@ th {
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  font-family: 'Roboto', serif, sans-serif;
-  font-weight: 900;
-  letter-spacing: 2px;
+/* TYPE
+-------------------------------------------------------*/
+body {
+  font: 300 1rem "Overpass", sans-serif;
+  color: #0a1f25;
 }
 
-a:visited {
-  color: black;
+h1 {
+  font: bold 3rem "Montserrat", sans-serif;
+  color: #ffffff;
+}
+
+h2 {
+  color: #862753;
+  font: normal 2.5rem "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-top: .25em;
+  margin-bottom: .25em;
+}
+
+h3 {
+  color: #3b2e80;
+  font: bold 1.75rem "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-top: .25em;
+  margin-bottom: .1em;
+}
+
+h4 {
+  color: #0a1f25;
+  font: regular 1.5rem "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-top: .25em;
+  margin-bottom: .1em;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4a818a;
+}
+a :visited {
+  color: #3b2e80;
 }
 
 /*
@@ -472,6 +509,16 @@ a:visited {
   z-index: 0;
   height: 100%;
   background-size: calc(100% + 500px);
+}
+
+.header a {
+  text-decoration: none;
+  font: regular 2rem "Overpass", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.header a :visited {
+  color: #0a1f25;
 }
 
 .header .container:nth-child(2) {
