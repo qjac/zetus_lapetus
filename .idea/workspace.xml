@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fc8b881-20f9-40d1-8696-15df63802ba8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zetus-lapetus/css/style.css" afterPath="$PROJECT_DIR$/zetus-lapetus/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zetus-lapetus/css/style.css.map" afterPath="$PROJECT_DIR$/zetus-lapetus/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zetus-lapetus/scss/partials/_base.scss" afterPath="$PROJECT_DIR$/zetus-lapetus/scss/partials/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zetus-lapetus/scss/partials/_header.scss" afterPath="$PROJECT_DIR$/zetus-lapetus/scss/partials/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zetus-lapetus/scss/partials/_variables.scss" afterPath="$PROJECT_DIR$/zetus-lapetus/scss/partials/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zetus-lapetus/scss/style.scss" afterPath="$PROJECT_DIR$/zetus-lapetus/scss/style.scss" />
     </list>
     <ignored path="zetus_lapetus.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,38 +25,7 @@
     <favorites_list name="zetus_lapetus" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="_base.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zetus-lapetus/scss/partials/_base.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zetus-lapetus/scss/partials/_header.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zetus-lapetus/scss/partials/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -345,18 +310,18 @@
       <updated>1485867429527</updated>
       <workItem from="1485867431183" duration="1197000" />
       <workItem from="1485868753260" duration="7578000" />
-      <workItem from="1485887491956" duration="6242000" />
+      <workItem from="1485887491956" duration="8706000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15017000" />
+    <option name="totallyTimeSpent" value="17481000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="328" y="140" width="1260" height="733" extended-state="0" />
-    <editor active="true" />
+    <frame x="328" y="140" width="1260" height="733" extended-state="1" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -418,14 +383,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zetus-lapetus/scss/style.css" />
-    <entry file="file://$PROJECT_DIR$/zetus-lapetus/scss/partials/_layout_lg.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zetus-lapetus/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -458,10 +415,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zetus-lapetus/scss/partials/_layout_lg.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zetus-lapetus/scss/partials/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="102" column="3" selection-start-line="102" selection-start-column="3" selection-end-line="102" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zetus-lapetus/scss/partials/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="300">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -470,14 +443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zetus-lapetus/scss/partials/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
           <folding />
         </state>
       </provider>

@@ -34,10 +34,9 @@ h3 {
 }
 
 h4 {
-  color: $dark;
+  color: $red;
   font: regular 1.5rem $font-heading;
-  text-transform: uppercase;
-  margin-top: .25em;
+  margin-top: 0;
   margin-bottom: .1em;
 }
 
@@ -72,4 +71,34 @@ a {
 
 .section:nth-child(even) {
   background-color: gray;
+}
+
+.button {
+  background-color: $blue;
+  color: $white;
+  font-size: 1.25rem;
+  width: 50%;
+  max-width: 200px;
+  padding:.25rem;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  border-radius: 999px;
+  &-secondary {
+	background-color: $red;
+  }
+}
+
+.button-big {
+  background-color: $blue;
+  color: $white;
+  font-size: 1.75rem;
+  width: 80%;
+  max-width: 450px;
+  padding: .25rem;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  border-radius: 999px;
+  &-secondary {
+	background-color: $red;
+  }
 }
