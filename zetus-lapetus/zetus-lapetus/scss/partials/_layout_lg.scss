@@ -1,0 +1,24 @@
+
+/*
+ * LAYOUT
+------------------------------------------------------*/
+
+.section {
+  width: 100%;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  clear: both;
+  overflow: hidden;
+}
+#applications .container {
+  height: 2200px;
+}
+#devices .container {
+  height: 950px;
+}
+.footer > .container {
+  height: 2000px;
+}
