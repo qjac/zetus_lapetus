@@ -6,7 +6,7 @@
 	      content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Overpass:300,400,700" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://use.fontawesome.com/2a4239e3dd.js"></script>
 	<title><?php ?>Zetus Lapetus</title>
 </head>
