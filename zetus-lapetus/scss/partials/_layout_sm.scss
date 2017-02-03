@@ -1,0 +1,48 @@
+@media screen and (max-width: $breakpoint_sm) {
+  .s1 {
+    width: $col;
+  }
+  .s2 {
+    width: $col * 2;
+  }
+  .s3 {
+    width: $col * 3;
+  }
+  .s4 {
+    width: $col * 4;
+  }
+  .s5 {
+    width: $col * 5;
+  }
+  .s6 {
+    width: $col * 6;
+  }
+  .s7 {
+    width: $col * 7;
+  }
+  .s8 {
+    width: $col * 8;
+  }
+  .s9 {
+    width: $col * 9;
+  }
+  .s10 {
+    width: $col * 10;
+  }
+  .s11 {
+    width: $col * 11;
+  }
+  .s12 {
+    width: $col * 12;
+  }
+  .off-mobile {
+    display: none;
+  }
+}
+.header,
+#core-features,
+#vrgoggles,
+#devices,
+.footer {
+  min-height: 750px;
+}
