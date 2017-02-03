@@ -10,6 +10,7 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+<<<<<<< HEAD
   <component name="masterDetails">
     <states>
       <state key="ScopeChooserConfigurable.UI">
@@ -25,4 +26,6 @@
       </state>
     </states>
   </component>
+=======
+>>>>>>> 38acc9a0c4f82688749bd4492f735a7844a9cbaf
 </project>
