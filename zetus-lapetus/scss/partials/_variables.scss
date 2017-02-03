@@ -1,4 +1,3 @@
-/*variables*/
 
 /*colors*/
 
@@ -15,3 +14,8 @@ $red: #862753;
 $font-heading: 'Montserrat', sans-serif;
 $font-body: 'Overpass', sans-serif;
 
+/*grid*/
+
+$col: 8.33333333333333%;
+$breakpoint_sm: 480px;
+$breakpoint_md: 780px;
