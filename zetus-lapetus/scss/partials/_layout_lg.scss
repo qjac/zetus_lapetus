@@ -1,7 +1,17 @@
+
 /*
  * LAYOUT
 ------------------------------------------------------*/
 
+#applications .container {
+  height: 2200px;
+}
+#devices .container {
+  height: 950px;
+}
+.footer > .container {
+  height: 2000px;
+}
 .section {
   width: 100%;
   margin: 0 auto;
@@ -12,12 +22,46 @@
   clear: both;
   overflow: hidden;
 }
-#applications .container {
-  height: 2200px;
+.row {
+  margin: 0 auto;
+  clear: both;
+  overflow: hidden;
 }
-#devices .container {
-  height: 950px;
-}
-.footer > .container {
-  height: 2000px;
+@media screen and (min-width: $breakpoint_md) {
+  .l1 {
+    width: $col;
+  }
+  .l2 {
+    width: $col * 2;
+  }
+  .l3 {
+    width: $col * 3;
+  }
+  .l4 {
+    width: $col * 4;
+  }
+  .l5 {
+    width: $col * 5;
+  }
+  .l6 {
+    width: $col * 6;
+  }
+  .l7 {
+    width: $col * 7;
+  }
+  .l8 {
+    width: $col * 8;
+  }
+  .l9 {
+    width: $col * 9;
+  }
+  .l10 {
+    width: $col * 10;
+  }
+  .l11 {
+    width: $col * 11;
+  }
+  .l12 {
+    width: $col * 12;
+  }
 }
