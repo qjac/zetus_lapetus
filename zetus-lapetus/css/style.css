@@ -779,12 +779,12 @@ a :visited {
 form input, form textarea {
   border: none;
   color: #0a1f25;
-  background-color: rgba(213, 227, 228, 0.75);
+  background-color: #e3eef0;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
   padding: .5rem;
-  width: 90%;
+  width: 100%;
   margin: .5rem 0;
 }
 
@@ -976,8 +976,24 @@ form #submit {
 #contact h1 {
   display: none;
 }
+#contact ul {
+  list-style-type: none;
+}
+#contact li {
+  font-size: 1em;
+  margin: .5em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#contact li i {
+  text-align: center;
+}
 #contact #email-form {
   background-color: #4a818a;
+}
+#contact #email-form textarea {
+  min-height: 10rem;
 }
 
 /*# sourceMappingURL=style.css.map */
