@@ -93,28 +93,36 @@ a {
   -webkit-border-radius: 999px;
   -moz-border-radius: 999px;
   border-radius: 999px;
+
+  &:hover {
+    background-color: lighten($teal, 20%);
+  }
 }
 
 .button-secondary{
   @extend .button;
   background-color: $red;
+  &:hover {
+    background-color: lighten($red, 20%);
+  }
 }
 
 .button-big {
-  background-color: $teal;
-  color: $light;
+  @extend .button;
   font-size: 1.75rem;
   width: 100%;
   max-width: 450px;
-  padding: .25rem;
-  -webkit-border-radius: 999px;
-  -moz-border-radius: 999px;
-  border-radius: 999px;
+  &:hover {
+    background-color: lighten($teal, 20%);
+  }
 }
 
 .button-big-secondary{
     @extend .button-big;
     background-color: $red;
+  &:hover {
+    background-color: lighten($red, 20%);
+  }
 }
 
 form input, form textarea {
