@@ -1,5 +1,6 @@
 /*Page specific styles*/
 
+<<<<<<< HEAD
 /*Index page*/
 
 #Home .button-big,
@@ -83,8 +84,9 @@
   }
 }
 
+=======
+>>>>>>> 6251942f537bb9cd8f8d8f30c4660e9bf184bc92
 /*shop page*/
-
 #shop {
   h2 {
 	text-align: center;
@@ -119,19 +121,55 @@
 	text-align: center;
   }
   img {
-	  width: 100%;
-	  height: auto;
-	}
+	width: 100%;
+	height: auto;
+  }
   .accessories {
 	background-color: $background-alternate;
 	padding-bottom: 0;
 	margin-bottom: 15px;
   }
-
   .accessories img {
 	position: relative;
 	left: -20%;
 	bottom: -.5rem;
 	margin-top: -3rem;
   }
+<<<<<<< HEAD
+=======
+}
+
+/*Contact page*/
+#contact {
+  h1 {
+	@extend h2;
+  }
+  ul {
+	list-style-type: none;
+  }
+  li {
+	font-size: 1em;
+	margin: .5em 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  }
+  li i {
+	text-align: center;
+  }
+  #email-form {
+	background-color: $teal;
+	textarea {
+	  min-height: 10rem;
+	}
+  }
+}
+
+/*learn page*/
+
+#learn {
+  h1 {
+	@extend h2;
+  }
+>>>>>>> 6251942f537bb9cd8f8d8f30c4660e9bf184bc92
 }
