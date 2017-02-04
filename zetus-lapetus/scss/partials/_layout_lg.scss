@@ -31,6 +31,9 @@
 }
 @media screen and (min-width: $breakpoint_md) {
   .l1 {
+    width: 0;
+  }
+  .l1 {
     width: $col;
   }
   .l2 {

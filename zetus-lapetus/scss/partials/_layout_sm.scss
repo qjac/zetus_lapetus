@@ -19,6 +19,9 @@ section, .section {
   padding: 0 15px;
 }
 @media screen and (max-width: $breakpoint_sm) {
+  .s0 {
+    width: 0;
+  }
   .s1 {
     width: $col;
   }
