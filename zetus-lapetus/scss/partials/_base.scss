@@ -84,18 +84,18 @@ a {
 }
 
 .button {
-  background-color: $teal;
+  background-color: $purple;
   color: $light;
   font-size: 1.25rem;
   width: 60%;
   max-width: 200px;
-  padding:.25rem;
+  padding: .25em .5rem;
   -webkit-border-radius: 999px;
   -moz-border-radius: 999px;
   border-radius: 999px;
 
   &:hover {
-    background-color: lighten($teal, 20%);
+    background-color: lighten($purple, 20%);
   }
 }
 
@@ -113,7 +113,7 @@ a {
   width: 100%;
   max-width: 450px;
   &:hover {
-    background-color: lighten($teal, 20%);
+    background-color: lighten($purple, 20%);
   }
 }
 
