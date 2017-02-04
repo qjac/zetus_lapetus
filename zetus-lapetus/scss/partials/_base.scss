@@ -78,11 +78,9 @@ a {
 .device-icon {
   font-size: 20em;
 }
-
-.section:nth-child(even) {
-  background-color: gray;
+.text-center {
+  text-align: center;
 }
-
 .button {
   background-color: $purple;
   color: $light;

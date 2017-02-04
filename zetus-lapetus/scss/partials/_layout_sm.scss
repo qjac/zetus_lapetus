@@ -58,17 +58,4 @@ section, .section {
   .off-mobile {
     display: none;
   }
-  .header,
-  #core-features,
-  #vrgoggles,
-  #devices,
-  .footer {
-    min-height: 750px;
-  }
-}
-#core-features .content {
-  margin-top: 25%;
-  p {
-    font-size: 2rem;
-  }
 }

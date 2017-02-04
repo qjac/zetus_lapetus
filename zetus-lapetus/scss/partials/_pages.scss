@@ -1,5 +1,61 @@
 /*Page specific styles*/
 
+/*Index page*/
+
+#Home .button-big,
+#applications .button-big,
+#vrgoggles .button-big,
+#devices .button-big,
+#core-features .button-big {
+	padding: 20px 30px;
+	margin: 25px auto;
+}
+#Home {
+	height: 700px;
+}
+#core-features {
+	min-height: 700px;
+	@media screen and (max-width: $breakpoint_sm) {
+		background: url('../img/vr-man.png') bottom left no-repeat;
+		background-size: 100%;
+	}
+}
+#devices {
+	padding: 75px 0;
+	@media screen and (max-width: $breakpoint_sm) {
+		h2 {
+			font-size: 2rem;
+		}
+		.device-icon {
+			font-size: 10rem !important;
+		}
+		h3 {
+			font-size: 1rem;
+		}
+	}
+}
+#applications {
+	padding: 150px 0;
+	background-color: $background-alternate;
+	height: 700px;
+	background-image: url('../img/teal-dash.png');
+	background-repeat: repeat-x;
+	background-position: 5rem 8rem;
+	@media screen and (min-width: $breakpoint_md) {
+		background-image: url('../img/floatingphone.png'), url('../img/teal-dash.png');
+		background-repeat: no-repeat, repeat-x;
+		background-position: 85%, 4rem 8rem;
+	}
+}
+.device-icon {
+
+}
+.device-icon {
+	font-size: 20rem !important;
+	color: $lightgray;
+	margin: 50px 0;
+}
+
 /*Contact page*/
 #contact {
   h1 {
@@ -78,5 +134,4 @@
 	bottom: -.5rem;
 	margin-top: -3rem;
   }
-
 }

@@ -3,15 +3,6 @@
  * LAYOUT
 ------------------------------------------------------*/
 
-#applications .container {
-  height: 2200px;
-}
-#devices .container {
-  height: 950px;
-}
-.footer > .container {
-  height: 2000px;
-}
 .section {
   width: 100%;
   margin: 0 auto;
@@ -24,6 +15,7 @@
 .row {
   clear: both;
   overflow: hidden;
+  padding: 25px 0;
 }
 .col {
   float: left;
@@ -66,6 +58,39 @@
   .l12 {
     width: $col * 12;
   }
+  .offset-l1 {
+    margin-left: $col;
+  }
+  .offset-l2 {
+    margin-left: $col * 2;
+  }
+  .offset-l3 {
+    margin-left: $col * 3;
+  }
+  .offset-l4 {
+    margin-left: $col * 4;
+  }
+  .offset-l5 {
+    margin-left: $col * 5;
+  }
+  .offset-l6 {
+    margin-left: $col * 6;
+  }
+  .offset-l7 {
+    margin-left: $col * 7;
+  }
+  .offset-l8 {
+    margin-left: $col * 8;
+  }
+  .offset-l9 {
+    margin-left: $col * 9;
+  }
+  .offset-l10 {
+    margin-left: $col * 10;
+  }
+  .offset-l11 {
+    margin-left: $col * 11;
+  }
   .off-mobile {
     display: block;
   }
@@ -87,10 +112,6 @@
   #Home .container:nth-child(2) {
     height: 100%;
     margin: 0 50px 0 auto;
-    padding: 5% 10%;
-    border-left: 2px dashed lightyellow;
-  }
-  #core-features .content {
-    margin-left: 40%;
+    padding: 10% 0 5% 5%;
   }
 }
