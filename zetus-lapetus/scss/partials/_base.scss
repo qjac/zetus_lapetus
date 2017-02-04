@@ -116,3 +116,7 @@ a {
     @extend .button-big;
     background-color: $red;
 }
+
+form input {
+  border: none;
+}
