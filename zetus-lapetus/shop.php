@@ -6,51 +6,55 @@
 	<main class="main" id="shop">
 		<section>
 			<div class="row container">
-				<div class="contact-intro col s12 m12 l6">
-					<img src="img/headset.png" alt="zetus lapetus headset">
-					<h3>Virtual Reality Headset</h3>
-					<p>VR games are mostly controlled in-app and are therefore no controller is required.</p>
+				<div class="col s12 m12 l12">
+					<div>
+						<img src="img/headset.png" alt="zetus lapetus headset">
+						<h3>Virtual Reality Headset</h3>
+						<p>VR games are mostly controlled in-app and are therefore no controller is required.</p>
+						<form id="form-buyheadset">
+							<div>
+								<label>Quantity</label>
+								<input type="number" id="qty" placeholder="Quantity"/>
+								<p>$200</p>
+								<input type="button" id="submit" class="button" value="Add to Bag"/>
+							</div>
+						</form>
+					</div>
+					<div>
+						<h2>Accesories made just for Zetus Lapetus</h2>
+						<h3>Earphones</h3>
+						<p>Experience even more immersive audio with Zetus Lapetus Earphones. These in-ear headphones are specially designed for your Zetus Lapetus headset to reduce sound distractions while you’re in virtual experiences. Requires the headset.</p>
+						<form id="form-buyearphones">
+							<div>
+								<label>Quantity</label>
+								<input type="number" id="qty" placeholder="Quantity"/>
+								<p>$80</p>
+								<input type="button" id="submit" class="button" value="Add to Bag"/>
+							</div>
+						</form>
+						<img src="img/woman-wearing-zl.png" alt="zetus lapetus headset with earphones">
+					</div>
+					<div>
+						<img src="img/controllers.png" alt="zetus lapetus touch controllers">
+						<h3>Touch Controllers
+						</h3>
+						<p>Before you even pick up a pair of Touch controllers, you know how to use them. Intuitive actions in VR feel as natural as using your real hands.</p>
+						<form id="form-buycontroller">
+							<div>
+								<label>Quantity</label>
+								<input type="number" id="qty" placeholder="Quantity"/>
+								<p>$100</p>
+								<input type="button" id="submit" class="button" value="Add to Bag"/>
+							</div>
+						</form>
+					</div> <!-- end .col-->
 				</div>
-				<ul class="deets col s12 m12 l6">
-					<li>
-						<a href="tel:612-252-9007">
-							<i class="fa fa-phone fa-2x col s2 m2 l1" aria-hidden="true"></i>
-							<span class="col s10 m10 l11">612.252.9007</span>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.google.com/maps/place/4534+Colfax+Ave+S,+Minneapolis,+MN+55419/@44.9202487,-93.2943225,17z/data=!3m1!4b1!4m5!3m4!1s0x87f627ae99067121:0xf4c956db4ed43366!8m2!3d44.9202487!4d-93.2921285">
-							<i class="fa fa-map-marker fa-2x col s2 m2 l1" aria-hidden="true"></i>
-							<span class="col s10 m10 l11">4534 Colfax Ave S <br> Minneapolis MN 55551</span>
-						</a>
-					</li>
-					<li>
-						<a href="mailto:zl@zetuslapetus.com">
-							<i class="fa fa-envelope fa-2x col s2 m2 l1" aria-hidden="true"></i>
-							<span class="col s10 m10 l11">zl@zetuslapetus.com</span>
-						</a>
-					</li>
-				</ul>
-			</div>
+			</div> <!-- end .row .container-->
+
 		</section>
 		<section id="email-form">
 			<div class="row container">
-				<form id="form">
-					<p id="returnmessage"></p>
-					<div class="col s12 m12 l6">
-						<label>Name</label>
-						<input type="text" id="name" placeholder="Name"/>
-						<label>Email</label>
-						<input type="text" id="email" placeholder="Email"/>
-						<label>Subject</label>
-						<input type="text" id="contact" placeholder="Subject"/>
-					</div>
-					<div class="col s12 m12 l6">
-						<label>Message</label>
-						<textarea id="message" placeholder="Message"></textarea>
-						<input type="button" id="submit" class="button-secondary" value="Send Message"/>
-					</div>
-				</form>
+
 			</div>
 		</section>
 	</main>
