@@ -1,4 +1,4 @@
-@media screen and (min-width: $breakpoint_sm) and (max-width: $breakpoint_md) {
+@media screen and (min-width: $breakpoint_sm) {
   .m1 {
     width: $col;
   }
@@ -34,5 +34,8 @@
   }
   .m12 {
     width: $col * 12;
+  }
+  .off-mobile {
+    display: block;
   }
 }

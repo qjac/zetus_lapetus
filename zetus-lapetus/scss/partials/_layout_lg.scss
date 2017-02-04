@@ -17,7 +17,6 @@
   margin: 0 auto;
 }
 .container {
-  max-width: 1200px;
   margin: 0 auto;
   clear: both;
   overflow: hidden;
@@ -26,6 +25,11 @@
   margin: 0 auto;
   clear: both;
   overflow: hidden;
+  display: table;
+}
+.col {
+  float: left;
+  padding: 0 15px;
 }
 @media screen and (min-width: $breakpoint_md) {
   .l1 {
@@ -63,5 +67,32 @@
   }
   .l12 {
     width: $col * 12;
+  }
+  .off-mobile {
+    display: block;
+  }
+  .container {
+    width: 80%;
+  }
+  #core-features {
+    background: url('../img/vr-man.png') bottom left no-repeat;
+    background-size: 65%;
+  }
+  #Home {
+    background: url('../img/header-bg.jpg') no-repeat;
+    top:0;
+    width:100%;
+    z-index:0;
+    height: 100%;
+    background-size: calc(100% + 500px);
+  }
+  #Home .container:nth-child(2) {
+    height: 100%;
+    margin: 0 50px 0 auto;
+    padding: 5% 10%;
+    border-left: 2px dashed lightyellow;
+  }
+  #core-features .content {
+    margin-left: 40%;
   }
 }

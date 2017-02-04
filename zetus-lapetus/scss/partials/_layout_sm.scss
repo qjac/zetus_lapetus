@@ -1,3 +1,21 @@
+.section {
+  width: 100%;
+  margin: 0 auto;
+}
+.container {
+  margin: 0 auto;
+  clear: both;
+  overflow: hidden;
+}
+.row {
+  margin: 0 auto;
+  clear: both;
+  overflow: hidden;
+}
+.col {
+  float: left;
+  padding: 0 15px;
+}
 @media screen and (max-width: $breakpoint_sm) {
   .s1 {
     width: $col;
@@ -38,11 +56,17 @@
   .off-mobile {
     display: none;
   }
+  .header,
+  #core-features,
+  #vrgoggles,
+  #devices,
+  .footer {
+    min-height: 750px;
+  }
 }
-.header,
-#core-features,
-#vrgoggles,
-#devices,
-.footer {
-  min-height: 750px;
+#core-features .content {
+  margin-top: 25%;
+  p {
+    font-size: 2rem;
+  }
 }
