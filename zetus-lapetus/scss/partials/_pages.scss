@@ -30,11 +30,37 @@
 /*shop page*/
 
 #shop {
+  h2 {
+	text-align: center;
+  }
+  h3 {
+	text-align: center;
+	padding-top: 30px;
+  }
   form {
-	display: inline-block;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 1.25rem;
+  }
+  form * {
+	margin: .5rem;
+  }
+  form p {
+	font-weight: bold;
+	font-size: 1.5rem;
+	width: 6rem;
+	text-align: center;
+  }
+  form label {
+	display: none;
   }
   input[type=number] {
 	width: 4rem;
+  }
+  input[type=submit] {
+	text-align: center;
   }
   img {
 	  width: 100%;
@@ -49,8 +75,8 @@
   .accessories img {
 	position: relative;
 	left: -20%;
+	bottom: -.5rem;
+	margin-top: -3rem;
   }
-
-
 
 }
