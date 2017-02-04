@@ -26,13 +26,10 @@
 					<nav class="menu main-menu">
 						<ul>
 							<li class="menu-item"><a href="index.php">Home</a></li>
-							<li class="menu-item"><a href="">About</a></li>
-							<li class="menu-item"><a href="">Products</a></li>
-							<li class="menu-item"><a href="#">Contact</a></li>
-							<li class="menu-item"><a href="index.php">Home</a></li>
-							<li class="menu-item"><a href="">About</a></li>
-							<li class="menu-item"><a href="">Products</a></li>
-							<li class="menu-item"><a href="#">Contact</a></li>
+							<li class="menu-item"><a href="learn.php">Learn</a></li>
+							<li class="menu-item"><a href="shop.php">Shop</a></li>
+							<li class="menu-item"><a href="applications.php">Contact</a></li>
+							<li class="menu-item"><a href="privacy.php">Home</a></li>
 						</ul>
 					</nav><!-- .menu .header-menu -->
 				</div><!-- .menu-container -->
