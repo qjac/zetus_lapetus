@@ -24,15 +24,19 @@
 			<div class="row">
 				<form id="form">
 					<p id="returnmessage"></p>
-					<label>Name</label>
-					<input type="text" id="name" placeholder="Name"/>
-					<label>Email</label>
-					<input type="text" id="email" placeholder="Email"/>
-					<label>Subject</label>
-					<input type="text" id="contact" placeholder="Subject"/>
-					<label>Message</label>
-					<textarea id="message" placeholder="Message"></textarea>
-					<input type="button" id="submit" class="button-secondary" value="Send Message"/>
+					<div class="col s12 m6 l6">
+						<label>Name</label>
+						<input type="text" id="name" placeholder="Name"/>
+						<label>Email</label>
+						<input type="text" id="email" placeholder="Email"/>
+						<label>Subject</label>
+						<input type="text" id="contact" placeholder="Subject"/>
+					</div>
+					<div class="col s12 m6 l6">
+						<label>Message</label>
+						<textarea id="message" placeholder="Message"></textarea>
+						<input type="button" id="submit" class="button-secondary" value="Send Message"/>
+					</div>
 				</form>
 			</div>
 		</section>
