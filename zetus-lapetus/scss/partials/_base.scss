@@ -119,12 +119,12 @@ a {
 
 form input, form textarea {
   border: none;
+  color: $dark;
   background-color: rgba($background-alternate, .75);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
   padding: .5rem;
-  color: $dark;
   width: 100%;
   margin: .5rem;
 }

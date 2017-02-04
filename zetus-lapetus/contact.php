@@ -8,7 +8,7 @@
 			<div class="row">
 				<div class="contact-intro col s12 m6 l6">
 					<h2>Contact</h2>
-					<h4>Feel free to contact us with questions or concerns. We are happy to help you.</h4>
+					<p>Feel free to contact us with questions or concerns. We are happy to help you.</p>
 				</div>
 				<div class="deets col s12 m6 l6">
 					<a href="tel:612-252-9007"><i class="fa fa-phone fa-2x" aria-hidden="true"></i><p>&nbsp; 612.252.9007</p></a>
@@ -20,7 +20,7 @@
 				</div>
 			</div>
 		</section>
-		<section id="email-form">
+		<section id="email-form>
 			<div class="row">
 				<form id="form">
 					<p id="returnmessage"></p>
