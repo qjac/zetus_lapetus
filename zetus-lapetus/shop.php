@@ -1,13 +1,15 @@
-<?php require_once('inc/header.php'); ?>
+<?php
+$page = "Shop";
+require_once('inc/header.php'); ?>
 	<div class="row container">
-		<h1>Buy Zetus Lapetus</h1>
+		<h1 class="col s12 m12 l12">Beyond Reality.</h1>
 	</div><!-- .container -->
 	</header><!-- .header -->
 	<main class="main" id="shop">
 		<section>
 			<div class="row container">
 				<div class="col s12 m12 l12">
-					<img src="img/headset.png" alt="zetus lapetus headset">
+					<img src="img/set.png" alt="zetus lapetus headset">
 					<h3>Virtual Reality Headset</h3>
 					<p>VR games are mostly controlled in-app and are therefore no controller is required.</p>
 					<form id="form-buyheadset">
@@ -31,7 +33,7 @@
 						<p>$80</p>
 						<input type="button" id="submit" class="button" value="Add to Bag"/>
 					</form>
-					<img src="img/woman-wearing-zl.png" alt="zetus lapetus headset with earphones">
+					<img src="img/lady_shop2.png" alt="zetus lapetus headset with earphones">
 				</div>
 			</div> <!-- end .row .container .accessories-->
 		</section>

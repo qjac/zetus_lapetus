@@ -1,4 +1,6 @@
-<?php require_once('inc/header.php'); ?>
+<?php
+$page = "Contact";
+require_once('inc/header.php'); ?>
 	<div>
 
 	</div><!-- .container -->
@@ -8,7 +10,6 @@
 			<div class="row container">
 				<div class="contact-intro col s12 m12 l6">
 					<h1>Contact Us</h1>
-					<h2>Contact</h2>
 					<p>Feel free to contact us with questions or concerns. We are happy to help you.</p>
 				</div>
 				<ul class="deets col s12 m12 l6">
