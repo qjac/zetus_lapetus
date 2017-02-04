@@ -93,9 +93,11 @@ a {
   -webkit-border-radius: 999px;
   -moz-border-radius: 999px;
   border-radius: 999px;
-  &-secondary {
-	background-color: $red;
-  }
+}
+
+.button-secondary{
+  @extend .button-big;
+  background-color: $red;
 }
 
 .button-big {
@@ -108,7 +110,9 @@ a {
   -webkit-border-radius: 999px;
   -moz-border-radius: 999px;
   border-radius: 999px;
-  &-secondary {
-	background-color: $red;
-  }
+}
+
+.button-big-secondary{
+    @extend .button-big;
+    background-color: $red;
 }
