@@ -18,14 +18,23 @@
 					</a>
 					<a href="mailto:zl@zetuslapetus.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i><p>&nbsp; zl@zetuslapetus.com</p></a>
 				</div>
-			</div><!-- .container -->
-		</section><!-- #section0 .section -->
-		<section id="email-form" class="section">
-			<div class="">
-				<div>
-
-				</div>
-			</div><!-- .container -->
-		</section><!-- #section2 .section -->
+			</div>
+		</section>
+		<section id="email-form">
+			<div class="row">
+				<form id="form">
+					<p id="returnmessage"></p>
+					<label>Name</label>
+					<input type="text" id="name" placeholder="Name"/>
+					<label>Email</label>
+					<input type="text" id="email" placeholder="Email"/>
+					<label>Subject</label>
+					<input type="text" id="contact" placeholder="Subject"/>
+					<label>Message</label>
+					<textarea id="message" placeholder="Message"></textarea>
+					<input type="button" id="submit" class="button-secondary" value="Send Message"/>
+				</form>
+			</div>
+		</section>
 	</main>
-<?php require_once('inc/footer.php'); ?>
+<//?php require_once('inc/footer.php'); ?>

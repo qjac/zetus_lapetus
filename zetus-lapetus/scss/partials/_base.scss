@@ -117,6 +117,11 @@ a {
     background-color: $red;
 }
 
-form input {
+form input, form textarea {
   border: none;
+  background-color: rgba($background-alternate, .5);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: .5rem;
 }
