@@ -6,12 +6,12 @@
 	<main class="main" id="contact">
 		<section>
 			<div class="row container">
-				<div class="contact-intro col s12 m6 l6">
+				<div class="contact-intro col s12 m12 l6">
 					<h1>Contact Us</h1>
 					<h2>Contact</h2>
 					<p>Feel free to contact us with questions or concerns. We are happy to help you.</p>
 				</div>
-				<ul class="deets col s12 m6 l6">
+				<ul class="deets col s12 m12 l6">
 					<li>
 						<a href="tel:612-252-9007">
 							<i class="fa fa-phone fa-2x col s2 m2 l1" aria-hidden="true"></i>
@@ -37,7 +37,7 @@
 			<div class="row container">
 				<form id="form">
 					<p id="returnmessage"></p>
-					<div class="col s12 m6 l6">
+					<div class="col s12 m12 l6">
 						<label>Name</label>
 						<input type="text" id="name" placeholder="Name"/>
 						<label>Email</label>
@@ -45,7 +45,7 @@
 						<label>Subject</label>
 						<input type="text" id="contact" placeholder="Subject"/>
 					</div>
-					<div class="col s12 m6 l6">
+					<div class="col s12 m12 l6">
 						<label>Message</label>
 						<textarea id="message" placeholder="Message"></textarea>
 						<input type="button" id="submit" class="button-secondary" value="Send Message"/>
