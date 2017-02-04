@@ -1,0 +1,17 @@
+#Home .button-big,
+#applications .button-big,
+#vrgoggles .button-big,
+#devices .button-big {
+  width: 100%;
+  padding: 25px;
+}
+.device-icon {
+  font-size: 20rem !important;
+  color: $lightgray;
+  margin: 50px 0;
+}
+.dashes {
+  background: url('/img/zl-dashed-line.svg') repeat-y;
+  position: absolute;
+  z-index: 25;
+}
