@@ -1,6 +1,18 @@
 /*Page specific styles*/
 
 /*Contact page*/
-#email-form {
-  background-color: $teal;
+#contact {
+  h1 {
+	display: none;
+  }
+  #email-form {
+	background-color: $teal;
+  }
+
+
+
+
+
+
+
 }

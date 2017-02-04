@@ -784,8 +784,8 @@ form input, form textarea {
   -moz-border-radius: 10px;
   border-radius: 10px;
   padding: .5rem;
-  width: 100%;
-  margin: .5rem;
+  width: 90%;
+  margin: .5rem 0;
 }
 
 form label {
@@ -973,7 +973,10 @@ form #submit {
 
 /*Page specific styles*/
 /*Contact page*/
-#email-form {
+#contact h1 {
+  display: none;
+}
+#contact #email-form {
   background-color: #4a818a;
 }
 

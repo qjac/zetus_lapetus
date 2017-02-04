@@ -20,7 +20,7 @@
 				</div>
 			</div>
 		</section>
-		<section id="email-form>
+		<section id="email-form">
 			<div class="row">
 				<form id="form">
 					<p id="returnmessage"></p>
