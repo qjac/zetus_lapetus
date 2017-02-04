@@ -120,12 +120,12 @@ a {
 form input, form textarea {
   border: none;
   color: $dark;
-  background-color: rgba($background-alternate, .75);
+  background-color: lighten($teal, 50%);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
   padding: .5rem;
-  width: 90%;
+  width: 100%;
   margin: .5rem 0;
 }
 
