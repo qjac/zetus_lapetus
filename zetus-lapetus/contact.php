@@ -54,4 +54,4 @@
 			</div>
 		</section>
 	</main>
-<//?php require_once('inc/footer.php'); ?>
+<?php require_once('inc/footer.php'); ?>
