@@ -420,7 +420,7 @@ section, .section {
   .off-mobile {
     display: none; } }
 @media screen and (min-width: 480px) {
-  .m1 {
+  .m0 {
     width: 0; }
 
   .m1 {
@@ -482,7 +482,7 @@ section, .section {
   padding: 0 15px; }
 
 @media screen and (min-width: 780px) {
-  .l1 {
+  .l0 {
     width: 0; }
 
   .l1 {
@@ -1082,5 +1082,19 @@ form #submit {
     min-height: 10rem; }
 
 /*learn page*/
+#learn img {
+  width: 100%;
+  height: auto; }
+#learn .learn-diagram {
+  background-color: #4a818a; }
+#learn .learn-diagram .fa {
+  color: #aaaaaa; }
+#learn .learn-diagram h2, #learn .learn-diagram h1 {
+  text-align: center;
+  margin-bottom: 0; }
+#learn svg {
+  width: 80%;
+  display: block;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
