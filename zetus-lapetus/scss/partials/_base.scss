@@ -91,7 +91,10 @@ a {
   -webkit-border-radius: 999px;
   -moz-border-radius: 999px;
   border-radius: 999px;
-
+  -webkit-transition: background-color .15s linear;
+  -moz-transition: background-color .15s linear;
+  -o-transition: background-color .15s linear;
+  transition: background-color .15s linear;
   &:hover {
     background-color: lighten($purple, 20%);
   }
@@ -100,6 +103,10 @@ a {
 .button-secondary{
   @extend .button;
   background-color: $red;
+  -webkit-transition: background-color .15s linear;
+  -moz-transition: background-color .15s linear;
+  -o-transition: background-color .15s linear;
+  transition: background-color .15s linear;
   &:hover {
     background-color: lighten($red, 20%);
   }
