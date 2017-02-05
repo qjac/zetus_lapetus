@@ -6,7 +6,7 @@ require_once('inc/header.php'); ?>
 	</header><!-- .header -->
 
 	<main class="main" id="learn">
-		<section>
+		<section class="learn-intro">
 			<div class="row container">
 				<div class="col s0 m0 l6">&nbsp;</div>
 				<div class="col s12 m12 l6">

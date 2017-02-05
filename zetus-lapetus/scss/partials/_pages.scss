@@ -185,9 +185,16 @@
 	height: auto;
   }
   .learn-intro {
-	background-image: url("../img/vr_learn.png");
-	background-size: cover;
-	background-repeat: no-repeat;
+	@media screen and (min-width: $breakpoint_md) {
+	  background-image: url("../img/vr_learn.png");
+	  background-size: contain;
+	  background-repeat: no-repeat;
+	  background-position: left 20% bottom 0;
+	  min-height: 500px;
+	  display: flex;
+	  justify-content: flex-end;
+	  align-items: flex-end;
+	}
   }
   .learn-diagram {
 	background-color: $teal;
