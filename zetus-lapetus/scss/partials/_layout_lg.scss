@@ -22,6 +22,9 @@
   padding: 0 15px;
 }
 @media screen and (min-width: $breakpoint_md) {
+  .l0 {
+    width: 0;
+  }
   .l1 {
     width: $col;
   }
