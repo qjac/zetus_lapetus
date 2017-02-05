@@ -1,6 +1,5 @@
 /*Page specific styles*/
 
-<<<<<<< HEAD
 /*Index page*/
 
 #Home .button-big,
@@ -57,35 +56,6 @@
 	margin: 50px 0;
 }
 
-/*Contact page*/
-#contact {
-  h1 {
-	display: none;
-  }
-  ul {
-	list-style-type: none;
-  }
-
-  li {
-	font-size: 1em;
-	margin: .5em 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-  }
-  li i {
-	text-align: center;
-  }
-  #email-form {
-	background-color: $teal;
-	textarea {
-	  min-height: 10rem;
-	}
-  }
-}
-
-=======
->>>>>>> 6251942f537bb9cd8f8d8f30c4660e9bf184bc92
 /*shop page*/
 #shop {
   h2 {
@@ -135,8 +105,6 @@
 	bottom: -.5rem;
 	margin-top: -3rem;
   }
-<<<<<<< HEAD
-=======
 }
 
 /*Contact page*/
@@ -171,5 +139,4 @@
   h1 {
 	@extend h2;
   }
->>>>>>> 6251942f537bb9cd8f8d8f30c4660e9bf184bc92
 }
