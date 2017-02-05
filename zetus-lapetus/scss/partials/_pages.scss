@@ -1,6 +1,5 @@
 /*Page specific styles*/
 
-<<<<<<< HEAD
 /*Index page*/
 
 #Home .button-big,
@@ -13,6 +12,9 @@
 }
 #Home {
 	height: 700px;
+}
+#vrgoggles {
+  padding: 0;
 }
 #core-features {
 	min-height: 700px;
@@ -84,8 +86,6 @@
   }
 }
 
-=======
->>>>>>> 6251942f537bb9cd8f8d8f30c4660e9bf184bc92
 /*shop page*/
 #shop {
   h2 {
@@ -135,8 +135,6 @@
 	bottom: -.5rem;
 	margin-top: -3rem;
   }
-<<<<<<< HEAD
-=======
 }
 
 /*Contact page*/
@@ -171,5 +169,4 @@
   h1 {
 	@extend h2;
   }
->>>>>>> 6251942f537bb9cd8f8d8f30c4660e9bf184bc92
 }

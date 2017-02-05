@@ -21,6 +21,15 @@
   padding: 0;
   list-style-type: none;
 }
+.footer a {
+  -webkit-transition: color .15s linear;
+  -moz-transition: color .15s linear;
+  -o-transition: color .15s linear;
+  transition: color .15s linear;
+}
+.footer a:hover {
+  color: $teal !important;
+}
 .footer .footer-menu {
   @media screen and (min-width: $breakpoint_md) {
     padding: 0;
@@ -37,8 +46,11 @@
     font-size: 2.5rem;
     color: $teal;
   }
+  li {
+    margin-bottom: 25px;
+  }
   a {
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: #d5e3e4;
   }
 }
@@ -46,7 +58,7 @@
   .social-menu-item a {
     color: #d5e3e4;
   }
-  @media screen and (max-width: $breakpoint_sm) {
+  @media screen and (max-width: $breakpoint_md) {
     .social-menu-item a {
       font-size: .75rem;
     }

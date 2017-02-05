@@ -58,7 +58,7 @@
   position: absolute;
   width: 100%;
   background: #0a1f25;
-  border-top: thin solid #f2694b;
+  border-top: thin solid $teal;
   ul {
     list-style-type: none;
     margin: 0;
@@ -68,8 +68,8 @@
 }
 .main-menu ul .menu-item {
   display: inline-block;
-  padding: 18px 15px 16px 15px;
-  @media screen and (max-width: $breakpoint_sm) {
+  padding: 16px 15px 14px 15px;
+  @media screen and (max-width: $breakpoint_md) {
     width: 100%;
   }
 }
@@ -77,20 +77,23 @@
   color: #ffffff;
   font-size: 20px;
   padding: 18px 15px 17px 15px;
+  @media screen and (max-width: $breakpoint_sm) {
+    width: 100%;
+  }
 }
 .main-menu .menu-item a:visited {
   color: #cccccc;
 }
 .main-menu .menu-item a:active {
   background-color: #0A3247;
-  color: #f2694b;
+  color: $teal;
 }
 .main-menu .menu-item a:hover {
   transition-property: background-color, color, filter;
   transition-duration: 0.3s;
   transition-timing-function: linear;
   color: #0A3247;
-  background-color: #f2694b;
+  background-color: $teal;
 }
 .main-menu .dropdown > li a {
   padding: 0;
@@ -113,7 +116,7 @@
   margin: 0;
   overflow: visible; }
 #hamburger:hover {
-  background-color: #f2694b; }
+  background-color: $teal; }
 
 .hamburger-box {
   width: 40px;

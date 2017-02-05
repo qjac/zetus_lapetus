@@ -14,25 +14,6 @@ $(document).ready(function() {
         }
     });
     if ( $( window ).width() > 480 ) {
-        //     $.scrollify({
-        //         section: ".scroll",
-        //         //sectionName:false,
-        //         scrollSpeed: 1000,
-        //         after: function (i) {
-        //         }
-        //     });
-        //     $(".scroll-btn").click(function (e) {
-        //         e.preventDefault();
-        //         $.scrollify.next();
-        //     });
-        //     $(".scroll-to-top").click(function (e) {
-        //         e.preventDefault();
-        //         $.scrollify.move("#header");
-        //     });
-        //     $(".scroll-to-footer").click(function (e) {
-        //         e.preventDefault();
-        //         $.scrollify.move("#footer");
-        //     });
         var movementStrength = 100;
         var height = movementStrength / $(window).height();
         var width = movementStrength / $(window).width();
