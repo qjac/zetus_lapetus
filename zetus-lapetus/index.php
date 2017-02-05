@@ -21,7 +21,7 @@ require_once('inc/header.php'); ?>
 	<section id="applications" class="scroll section">
 		<div class="container">
             <div class="row">
-                <div class="col s12 m6 l6">
+                <div class="col s12 m6 l7">
                     <h2>DOWNLOAD THE APP</h2>
                     <h4>Play games or go inside your favorite movies. Travel anywhere, learn, shop or hang out with friends in VR</h4>
                     <p class="text-center"><a class="button-big button-big-tertiary" href="#">Explore Experiences</a></p>
@@ -93,5 +93,33 @@ require_once('inc/header.php'); ?>
 //        player.stopVideo();
 //    }
 </script>
+    <section class="section" id="where-to-buy">
+        <div class="container">
+            <div class="col s12 m6 l3">
+                <h3 class='text-center'>Available at</h3>
+            </div><!-- .quarter -->
+            <div class="col s12 m6 l4">
+                <p class="text-center">
+                    <a href="https://www.amazon.com">
+                        <img class="fade-to" src="img/amazon-gray.png">
+                    </a>
+                </p>
+            </div><!-- .quarter -->
+            <div class="col s12 m6 l2">
+                <p class="text-center">
+                    <a href="shop.php">
+                        <img class="fade-to" src="img/zl-mark-2.png">
+                    </a>
+                </p>
+            </div><!-- .quarter -->
+            <div class="col s12 m6 l3">
+                <p class="text-center">
+                    <a href="https://www.bestbuy.com">
+                        <img class="fade-to" src="img/bestbuy-gray.png">
+                    </a>
+                </p>
+            </div><!-- .quarter -->
+        </div>
+    </section>
 <?php require_once('inc/footer.php'); ?>
 <!-- <script type="text/javascript" src="js/jquery.scrollify.min.js"></script> -->

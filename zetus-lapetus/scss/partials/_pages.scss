@@ -35,39 +35,65 @@
     }
 }
 #devices {
-	padding: 75px 0;
-	@media screen and (max-width: $breakpoint_sm) {
-		h2 {
-			font-size: 2rem;
-		}
-		.device-icon {
-			font-size: 10rem !important;
-		}
-		h3 {
-			font-size: 1rem;
-		}
-	}
+  padding: 75px 0;
+  .device-icon {
+    font-size: 20rem !important;
+    color: $lightgray;
+    margin: 25px 0;
+  }
+  @media screen and (max-width: $breakpoint_sm) {
+      h2 {
+          font-size: 2rem;
+      }
+      .device-icon {
+          font-size: 14rem !important;
+      }
+      h3 {
+          font-size: 1rem;
+      }
+  }
 }
 #applications {
   padding: 150px 0;
   background-color: $background-alternate;
-  height: 700px;
+  height: 800px;
   background-image: url('../img/teal-dash.png');
   background-repeat: repeat-x;
   background-position: 5rem 8rem;
+  h4 {
+    font-size: 1.5rem;
+    line-height: 3.7rem;
+  }
   @media screen and (min-width: $breakpoint_md) {
     background-image: url('../img/floatingphone.png'), url('../img/teal-dash.png');
     background-repeat: no-repeat, repeat-x;
     background-position: 85%, 4rem 8rem;
-  }
-  h4 {
-    font-size: 2rem;
+    height: 700px;
+    h4 {
+      font-size: 2rem;
+    }
   }
 }
-.device-icon {
-	font-size: 20rem !important;
-	color: $lightgray;
-	margin: 25px 0;
+#where-to-buy {
+  background: $background-alternate;
+  img {
+    vertical-align: middle;
+  }
+  h3 {
+    font-size: 1.25rem;
+    padding: 3rem 0 0 0;
+    vertical-align: middle;
+  }
+  .fade-to {
+    opacity: .6;
+    -webkit-transition: opacity .15s linear;
+    -moz-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+  }
+  .fade-to:hover {
+    opacity: 1;
+  }
 }
 
 /*Contact page*/
@@ -204,4 +230,13 @@
 	margin: 0 auto;
 	//text-align: center;
   }
+}
+/*privacy page*/
+
+#privacy-header {
+  background-color: $teal;
+  padding: 5% 0;
+}
+#privacy {
+  padding: 3% 0;
 }
