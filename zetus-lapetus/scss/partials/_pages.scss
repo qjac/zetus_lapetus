@@ -139,4 +139,29 @@
   h1 {
 	@extend h2;
   }
+  img {
+	width: 100%;
+	height: auto;
+  }
+  .learn-diagram {
+	background-color: $teal;
+  }
+  .learn-diagram .fa {
+	color: #aaaaaa;
+  }
+  .learn-diagram h2 {
+	text-align: center;
+	//text-decoration: underline;
+	//text-decoration-style: dashed;
+	//text-decoration-color: $light;
+	margin-bottom: 0;
+  }
+
+  svg {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	//text-align: center;
+  }
+
 }
