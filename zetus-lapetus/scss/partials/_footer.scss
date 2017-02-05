@@ -28,7 +28,7 @@
   transition: color .15s linear;
 }
 .footer a:hover {
-  color: $teal !important;
+  color: $light !important;
 }
 .footer .footer-menu {
   @media screen and (min-width: $breakpoint_md) {
@@ -44,19 +44,19 @@
   }
   h2 {
     font-size: 2.5rem;
-    color: $teal;
+    color: $light;
   }
   li {
     margin-bottom: 25px;
   }
   a {
     font-size: 1.75rem;
-    color: #d5e3e4;
+    color: $lightteal;
   }
 }
 .footer .social-menu {
   .social-menu-item a {
-    color: #d5e3e4;
+    color: $lightteal;
   }
   @media screen and (max-width: $breakpoint_md) {
     .social-menu-item a {

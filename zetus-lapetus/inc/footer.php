@@ -32,7 +32,7 @@
 	<footer class="footer">
 		<section class="section">
 			<div class="container">
-				<div class="col s12 m12 l4">
+				<div class="col s12 m12 l3">
 					<nav class="menu social-menu">
 						<ul>
 							<li class="social-menu-item"><a href="#"><i class="fa fa-facebook-square fa-5x"></i></a></li>
@@ -53,7 +53,7 @@
 						</ul>
 					</nav><!-- .menu .footer-menu -->
 				</div><!-- col s6 m6 l4 -->
-				<div class="col s12 m6 l4 footer-menu">
+				<div class="col s12 m6 l5 footer-menu">
 					<nav class="menu">
 						<h2>Company</h2>
 						<ul>

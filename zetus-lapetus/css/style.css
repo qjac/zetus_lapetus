@@ -897,7 +897,7 @@ form #submit {
   transition: color .15s linear; }
 
 .footer a:hover {
-  color: #4a818a !important; }
+  color: #ffffff !important; }
 
 @media screen and (min-width: 780px) {
   .footer .footer-menu {
@@ -914,15 +914,15 @@ form #submit {
   font-weight: 400; }
 .footer .footer-menu h2, .footer .footer-menu #contact h1, #contact .footer .footer-menu h1, .footer .footer-menu #learn h1, #learn .footer .footer-menu h1 {
   font-size: 2.5rem;
-  color: #4a818a; }
+  color: #ffffff; }
 .footer .footer-menu li {
   margin-bottom: 25px; }
 .footer .footer-menu a {
   font-size: 1.75rem;
-  color: #d5e3e4; }
+  color: #61a7af; }
 
 .footer .social-menu .social-menu-item a {
-  color: #d5e3e4; }
+  color: #61a7af; }
 @media screen and (max-width: 780px) {
   .footer .social-menu .social-menu-item a {
     font-size: .75rem; }
@@ -941,21 +941,43 @@ form #submit {
 #devices .button-big-secondary,
 #core-features .button-big,
 #core-features .button-big-secondary {
-  padding: 20px 30px;
-  margin: 25px auto; }
+  padding: 20px 15px;
+  margin: 25px auto;
+  display: block; }
+  @media screen and (max-width: 780px) {
+    #Home .button-big, #Home .button-big-secondary,
+    #applications .button-big,
+    #applications .button-big-secondary,
+    #vrgoggles .button-big,
+    #vrgoggles .button-big-secondary,
+    #devices .button-big,
+    #devices .button-big-secondary,
+    #core-features .button-big,
+    #core-features .button-big-secondary {
+      margin-top: 25px;
+      font-size: 1rem; } }
+
+#core-features .button-big, #core-features .button-big-secondary,
+#applications .button-big,
+#applications .button-big-secondary {
+  margin-top: 100px; }
+  @media screen and (max-width: 780px) {
+    #core-features .button-big, #core-features .button-big-secondary,
+    #applications .button-big,
+    #applications .button-big-secondary {
+      margin-top: 25px; } }
 
 #Home {
   height: 700px; }
 
-#vrgoggles {
-  padding: 0; }
-
 #core-features {
-  min-height: 700px; }
+  min-height: 700px;
+  padding-top: 150px; }
   @media screen and (max-width: 480px) {
     #core-features {
       background: url("../img/vr-man.png") bottom left no-repeat;
-      background-size: 100%; } }
+      background-size: 100%;
+      padding-top: 50px; } }
 
 #devices {
   padding: 75px 0; }
@@ -979,11 +1001,13 @@ form #submit {
       background-image: url("../img/floatingphone.png"), url("../img/teal-dash.png");
       background-repeat: no-repeat, repeat-x;
       background-position: 85%, 4rem 8rem; } }
+  #applications h4 {
+    font-size: 2rem; }
 
 .device-icon {
   font-size: 20rem !important;
   color: #cccccc;
-  margin: 50px 0; }
+  margin: 25px 0; }
 
 /*Contact page*/
 #contact h1 {
