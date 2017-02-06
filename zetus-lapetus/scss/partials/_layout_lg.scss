@@ -11,6 +11,7 @@
   margin: 0 auto;
   clear: both;
   overflow: hidden;
+  width: 80%;
 }
 .row {
   clear: both;
@@ -96,9 +97,7 @@
   .off-mobile {
     display: block;
   }
-  .container {
-    width: 80%;
-  }
+
   #core-features {
     background: url('../img/vr-man.png') bottom left no-repeat;
     background-size: 65%;

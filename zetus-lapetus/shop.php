@@ -1,9 +1,11 @@
 <?php
 $page = "Shop";
 require_once('inc/header.php'); ?>
-	<div class="row container">
-		<h1 class="col s12 m12 l12">Beyond Reality.</h1>
-	</div><!-- .container -->
+		<section class="shop-hero">
+			<div class="row container hero-text">
+				<h1 class="col s12 m12 l12">Beyond Reality.</h1>
+			</div><!-- .container -->
+		</section>
 	</header><!-- .header -->
 	<main class="main" id="shop">
 		<section>
