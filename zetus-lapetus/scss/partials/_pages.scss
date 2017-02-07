@@ -132,34 +132,23 @@
   }
 }
 
-/*Contact page*/
-#contact {
-  h1 {
-	display: none;
-  }
-  ul {
-	list-style-type: none;
-  }
-
-  li {
-	font-size: 1em;
-	margin: .5em 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-  }
-  li i {
-	text-align: center;
-  }
-  #email-form {
-	background-color: $teal;
-	textarea {
-	  min-height: 10rem;
-	}
+/*shop page*/
+.shop-hero {
+  min-height: 300px;
+  background-image: url('../img/lady.jpeg');
+  background-size: cover;
+  background-position: 60% 20%;
+  @media screen and (min-width: $breakpoint_sm ) {
+	min-height: 600px;
   }
 }
 
-/*shop page*/
+.hero-text {
+  position: relative;
+  @media screen and (min-width: $breakpoint_sm) {
+	top: 150px;
+  }
+}
 #shop {
   h2 {
 	text-align: center;
@@ -247,9 +236,14 @@
 	height: auto;
   }
   .learn-intro {
-	background-image: url("../img/vr_learn.png");
-	background-size: cover;
-	background-repeat: no-repeat;
+	@media screen and (min-width: $breakpoint_md) {
+	  background-size: contain;
+	  background: url("../img/vr_learn.png") no-repeat left 20% bottom 0;
+	  min-height: 500px;
+	  display: flex;
+	  justify-content: flex-end;
+	  align-items: flex-end;
+	}
   }
   .learn-diagram {
 	background-color: $teal;
@@ -271,6 +265,7 @@
 	}
   }
 }
+
 /*privacy page*/
 
 #privacy-header {
