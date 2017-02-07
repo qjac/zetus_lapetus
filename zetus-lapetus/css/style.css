@@ -727,15 +727,11 @@ form #submit {
   font: regular 2rem "Overpass", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px; }
-  .header a :visited {
-    color: #0a1f25; }
+.header a:visited {
+  color: #0a1f25; }
 
 #Home .container:nth-child(2) {
   height: 100%; }
-  @media screen and (max-width: 480px) {
-    #Home .container:nth-child(2) h1 {
-      padding-top: 5rem;
-      font-size: 2.5rem; } }
 
 .header .section {
   background: #0a1f25; }
@@ -746,14 +742,11 @@ form #submit {
       padding-right: 0; } }
 
 .logo {
-  float: left;
-  display: inline-block;
-  overflow: hidden;
   width: 250px; }
   @media screen and (max-width: 480px) {
     .logo {
       width: 100%;
-      margin-top: 25px; }
+      margin-top: 10%; }
       .logo .col {
         padding-left: 0; } }
 
@@ -771,39 +764,34 @@ form #submit {
     margin: 0;
     padding: 0;
     float: right; }
-
-.main-menu ul .menu-item {
-  display: inline-block;
-  padding: 16px 15px 14px 15px; }
-  @media screen and (max-width: 780px) {
     .main-menu ul .menu-item {
-      width: 100%; } }
-
-.main-menu .menu-item a:link {
-  color: #ffffff;
-  font-size: 20px;
-  padding: 18px 15px 17px 15px; }
-  @media screen and (max-width: 480px) {
-    .main-menu .menu-item a:link {
-      width: 100%; } }
-
-.main-menu .menu-item a:visited {
-  color: #cccccc; }
-
-.main-menu .menu-item a:active {
-  background-color: #0A3247;
-  color: #4a818a; }
-
-.main-menu .menu-item a:hover {
-  transition-property: background-color, color, filter;
-  transition-duration: 0.3s;
-  transition-timing-function: linear;
-  color: #0A3247;
-  background-color: #4a818a; }
-
-.main-menu .dropdown > li a {
-  padding: 0;
-  border: none !important; }
+      display: inline-block;
+      padding: 16px 15px 14px 15px; }
+      @media screen and (max-width: 780px) {
+        .main-menu ul .menu-item {
+          width: 100%; } }
+      .main-menu ul .menu-item a:link {
+        color: #ffffff;
+        font-size: 20px;
+        padding: 18px 15px 17px 15px; }
+        @media screen and (max-width: 480px) {
+          .main-menu ul .menu-item a:link {
+            width: 100%; } }
+      .main-menu ul .menu-item a:visited {
+        color: #cccccc; }
+      .main-menu ul .menu-item a:active {
+        background-color: #0A3247;
+        color: #4a818a; }
+      .main-menu ul .menu-item a:hover {
+        transition-property: background-color, color, filter;
+        transition-duration: 0.3s;
+        transition-timing-function: linear;
+        color: #0A3247;
+        background-color: #4a818a; }
+      @media screen and (max-width: 480px) {
+        .main-menu ul .menu-item a:hover {
+          background-color: transparent;
+          color: #cccccc; } }
 
 #hamburger {
   padding: 15px 15px;
@@ -927,7 +915,7 @@ form #submit {
   color: #61a7af; }
 @media screen and (max-width: 780px) {
   .footer .social-menu .social-menu-item a {
-    font-size: .75rem; }
+    font-size: .6rem; }
   .footer .social-menu .social-menu-item {
     display: inline-block;
     margin: 0 2%; } }
@@ -973,11 +961,10 @@ form #submit {
     #Home h1 {
       margin: 12% 0 0 11.15%; } }
   @media screen and (max-width: 480px) {
-    #Home {
-      font-size: 2.5rem;
-      line-height: 3.5rem; }
-      #Home h1 {
-        margin: 15% 0 0 0; } }
+    #Home h1 {
+      margin: 7.5rem 0 0 0;
+      font-size: 1.75rem;
+      line-height: 3.5rem; } }
   #Home svg {
     z-index: 10;
     left: 10px;

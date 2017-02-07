@@ -23,24 +23,17 @@
     padding: 0;
   }
   a {
-  text-decoration: none;
-  font: regular 2rem $font-body;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-
-  :visited {
-    color: $dark;
+    text-decoration: none;
+    font: regular 2rem $font-body;
+    text-transform: uppercase;
+    letter-spacing: 2px;
   }
+  a:visited {
+    color: $dark;
   }
 }
 #Home .container:nth-child(2) {
   height: 100%;
-  @media screen and (max-width: $breakpoint_sm) {
-    h1 {
-      padding-top: 5rem;
-      font-size: 2.5rem;
-    }
-  }
 }
 .header .section {
   background: #0a1f25;
@@ -54,13 +47,10 @@
   }
 }
 .logo {
-  float: left;
-  display: inline-block;
-  overflow: hidden;
   width: 250px;
   @media screen and (max-width: $breakpoint_sm) {
     width: 100%;
-    margin-top: 25px;
+    margin-top: 10%;
     .col {
       padding-left: 0;
     }
@@ -80,40 +70,42 @@
     margin: 0;
     padding: 0;
     float: right;
+    .menu-item {
+      display: inline-block;
+      padding: 16px 15px 14px 15px;
+      @media screen and (max-width: $breakpoint_md) {
+        width: 100%;
+      }
+      a:link {
+        color: #ffffff;
+        font-size: 20px;
+        padding: 18px 15px 17px 15px;
+        @media screen and (max-width: $breakpoint_sm) {
+          width: 100%;
+        }
+      }
+      a:visited {
+        color: #cccccc;
+      }
+      a:active {
+        background-color: #0A3247;
+        color: $teal;
+      }
+      a:hover {
+        transition-property: background-color, color, filter;
+        transition-duration: 0.3s;
+        transition-timing-function: linear;
+        color: #0A3247;
+        background-color: $teal;
+      }
+      @media screen and (max-width: $breakpoint_sm) {
+        a:hover {
+          background-color: transparent;
+          color: #cccccc;
+        }
+      }
+    }
   }
-}
-.main-menu ul .menu-item {
-  display: inline-block;
-  padding: 16px 15px 14px 15px;
-  @media screen and (max-width: $breakpoint_md) {
-    width: 100%;
-  }
-}
-.main-menu .menu-item a:link {
-  color: #ffffff;
-  font-size: 20px;
-  padding: 18px 15px 17px 15px;
-  @media screen and (max-width: $breakpoint_sm) {
-    width: 100%;
-  }
-}
-.main-menu .menu-item a:visited {
-  color: #cccccc;
-}
-.main-menu .menu-item a:active {
-  background-color: #0A3247;
-  color: $teal;
-}
-.main-menu .menu-item a:hover {
-  transition-property: background-color, color, filter;
-  transition-duration: 0.3s;
-  transition-timing-function: linear;
-  color: #0A3247;
-  background-color: $teal;
-}
-.main-menu .dropdown > li a {
-  padding: 0;
-  border: none !important;
 }
 
 #hamburger {
