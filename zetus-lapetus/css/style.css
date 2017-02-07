@@ -1255,6 +1255,14 @@ form #submit {
 	background-color: #d5e3e4;
 }
 
+.applications_pg #devices.app-section {
+	padding: 4em 0;
+}
+
+.applications_pg .app-row-heading h4 {
+	margin-bottom: 1.25em;
+}
+
 .applications_pg .app-left img {
 	width: 100%;
 }
@@ -1273,12 +1281,18 @@ form #submit {
 	padding: 60px 0 55px;
 }
 
-.applications_pg h4.text-center.app-button {
+.applications_pg h4.text-center.app-button a {
 	color: white;
 	background-color: #862753;
 	display: inline-block;
 	padding: 25px 45px;
 	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+}
+
+.applications_pg h4.text-center.app-button a:hover {
+	opacity: 0.65;
 }
 
 .applications_pg .section.game-section {
