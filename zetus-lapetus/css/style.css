@@ -739,6 +739,11 @@ form #submit {
 
 .header .section {
   background: #0a1f25; }
+  @media screen and (max-width: 480px) {
+    .header .section .col:first-child {
+      padding-left: 0; }
+    .header .section .col:nth-child(2) {
+      padding-right: 0; } }
 
 .logo {
   float: left;
@@ -747,7 +752,10 @@ form #submit {
   width: 250px; }
   @media screen and (max-width: 480px) {
     .logo {
-      width: 80%; } }
+      width: 100%;
+      margin-top: 25px; }
+      .logo .col {
+        padding-left: 0; } }
 
 .main-menu {
   display: inline-block;
@@ -967,8 +975,9 @@ form #submit {
   @media screen and (max-width: 480px) {
     #Home {
       font-size: 2.5rem;
-      line-height: 3.5rem;
-      margin: 15% 0 0 0; } }
+      line-height: 3.5rem; }
+      #Home h1 {
+        margin: 15% 0 0 0; } }
   #Home svg {
     z-index: 10;
     left: 10px;
@@ -991,7 +1000,8 @@ form #submit {
       background-position: bottom center; } }
   @media screen and (max-width: 480px) {
     #core-features {
-      background-size: 100%; } }
+      background-size: 100%;
+      height: 750px; } }
 
 #video-section {
   padding: 0; }
@@ -1040,7 +1050,11 @@ form #submit {
         font-size: 2rem; } }
   @media screen and (max-width: 480px) {
     #applications {
-      height: 800px; } }
+      height: 825px; }
+      #applications h2, #applications #contact h1, #contact #applications h1, #applications #learn h1, #learn #applications h1 {
+        font-size: 2rem; }
+      #applications h4 {
+        line-height: 3rem; } }
 
 #where-to-buy {
   background: #d5e3e4; }

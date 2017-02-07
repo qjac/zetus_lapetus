@@ -36,7 +36,7 @@ require_once('inc/header.php'); ?>
             </div>
 		</div><!-- .container -->
 	</section><!-- #section1 .section -->
-	<section id="video-section" class="scroll section">
+	<section id="video-section" class="off-mobile section">
         <video id="video" controls>
             <source src="img/videogame.mp4" type="video/mp4">
             <source src="img/videogame.ogg" type="video/ogg">

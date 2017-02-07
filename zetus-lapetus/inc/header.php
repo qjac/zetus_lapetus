@@ -14,10 +14,10 @@
 <header data-section-name="header" class="header scroll" id="<?php echo $page;?>">
 	<div class="section">
 		<div class="container">
-			<div class="col s10 m10 l10">
+			<div class="col s9 m10 l10">
 				<img class="logo" src="img/zl-logo-1.png" alt="Zetus Lapetus Logo">
 			</div>
-			<div class="col s2 m2 l2">
+			<div class="col s3 m2 l2">
 				<div id="hamburger">
 					<div class="hamburger-box">
 						<div class="hamburger-inner"></div>

@@ -44,6 +44,14 @@
 }
 .header .section {
   background: #0a1f25;
+  @media screen and (max-width: $breakpoint_sm) {
+    .col:first-child {
+      padding-left: 0;
+    }
+    .col:nth-child(2) {
+      padding-right: 0;
+    }
+  }
 }
 .logo {
   float: left;
@@ -51,7 +59,11 @@
   overflow: hidden;
   width: 250px;
   @media screen and (max-width: $breakpoint_sm) {
-    width: 80%;
+    width: 100%;
+    margin-top: 25px;
+    .col {
+      padding-left: 0;
+    }
   }
 }
 .main-menu {
