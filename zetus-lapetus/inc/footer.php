@@ -15,10 +15,9 @@
                 <nav class="menu">
                     <h2>Product</h2>
                     <ul>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="learn.php">Learn</a></li>
                         <li><a href="applications.php">Application</a></li>
-                        <li><a href="apple.php">Apple IOS</a></li>
-                        <li><a href="android.php">Android</a></li>
-                        <li><a href="contact.php">Support</a></li>
                     </ul>
                 </nav><!-- .menu .footer-menu -->
             </div><!-- col s6 m6 l4 -->
@@ -26,10 +25,9 @@
                 <nav class="menu">
                     <h2>Company</h2>
                     <ul>
-                        <li><a href="learn.php">Learn</a></li>
+                        <li><a href="careers.php">Shop</a></li>
+                        <li><a href="contact.php">Support</a></li>
                         <li><a href="privacy.php">Privacy</a></li>
-                        <li><a href="careers.php">Careers</a></li>
-                        <li><a href="legal.php">Legal</a></li>
                     </ul>
                 </nav><!-- .menu .footer-menu -->
             </div><!-- col s6 m6 l4 -->
