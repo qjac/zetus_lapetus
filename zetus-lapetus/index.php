@@ -9,7 +9,7 @@ require_once('inc/header.php'); ?>
        stroke: #d9cb70; stroke-width: 3;"/>
     </svg>
 	<div class="container">
-        <div class="content col s12 m7 l10 offset-l2">
+        <div class="content col s12 m12 l10 offset-l2">
         <h1>a virtual reality headset that pairs with IOS + Android platforms</h1>
             <img class="headset off-mobile" src="img/headsetempty.png" width="600" alt="">
         </div><!-- content col s12 m7 l7 -->
@@ -18,10 +18,10 @@ require_once('inc/header.php'); ?>
 <main class="main">
 	<section id="core-features"  class="section scroll">
 		<div class="container">
-			<div class="content col s12 m7 l6 offset-l6">
+			<div class="content col s12 m12 l6 offset-l6">
 				<h2>Zetus Lapetus</h2>
                 <h4>Redefining digital entertainment</h4>
-                <p class="text-center"><a class="button-big button-big-tertiary" href="#">Learn More</a></p>
+                <p class="text-center"><a class="button-big button-big-tertiary" href="learn.php">Learn More</a></p>
 			</div><!-- .content -->
 		</div><!-- .container -->
 	</section><!-- #section0 .section -->
@@ -31,7 +31,7 @@ require_once('inc/header.php'); ?>
                 <div class="col s12 m12 l7">
                     <h2>DOWNLOAD THE APP</h2>
                     <h4>Play games or go inside your favorite movies. Travel anywhere, learn, shop or hang out with friends in VR</h4>
-                    <p class="text-center"><a class="button-big button-big-tertiary" href="#">Explore Experiences</a></p>
+                    <p class="text-center"><a class="button-big button-big-tertiary" href="applications.php">Explore Experiences</a></p>
                 </div>
             </div>
 		</div><!-- .container -->
@@ -52,11 +52,11 @@ require_once('inc/header.php'); ?>
                 </div>
                 <div class="device-container col s12 m6 l6">
                     <p class="text-center"><i class="fa fa-apple device-icon" aria-hidden="true"></i></p>
-                    <p class="text-center"><a class="button-big button-big-tertiary" href="#">Apple VR Package</a></p>
+                    <p class="text-center"><a class="button-big button-big-tertiary" href="shop.php">Check the shop</a></p>
                 </div>
                 <div class="device-container col s12 m6 l6">
                     <p class="text-center"><i class="fa fa-android device-icon" aria-hidden="true"></i></p>
-                    <p class="text-center"><a class="button-big button-big-tertiary" href="#">Android VR Package</a></p>
+                    <p class="text-center"><a class="button-big button-big-tertiary" href="applications.php">Application</a></p>
                 </div>
             </div>
 		</div><!-- .container -->
