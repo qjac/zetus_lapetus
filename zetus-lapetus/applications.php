@@ -12,10 +12,27 @@ require_once('inc/header.php'); ?>
 			   </div>
 			</div>
 		</div><!-- .container -->
-	</section><!-- #section1 .section -->
-	<section id="vrgoggles" class="scroll section">
-		<div id="player"></div>
-	</section><!-- #section2 .section -->
+	</section>
+	<section class="section game-section">
+		<div class="container">
+			<div class="game-row row">
+				<div class="col s12 m12 l12 game-row-heading">
+				<h2>MADE BY <span><img alt="logo" src="/img/zl-mark-1.png"></span></h2>
+				</div>
+				<div class="col s12 m12 l6 game-col">
+					<img src="/img/mbzetus-2.jpg" alt="#">
+				</div>
+				<div class="col s12 m12 l3 game-col">
+					<img src="/img/mbzetus-1.jpg" alt="#">
+					<img src="/img/mbzetus-4.jpg" alt="#">
+				</div>
+				<div class="col s12 m12 l3 game-col">
+					<img src="/img/mbzetus-5.jpg" alt="#">
+					<img src="/img/mbzetus-3.jpg" alt="#">
+				</div><!-- .threequarter -->
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
 	<section id="devices" class="scroll section">
 		<div class="container">
 			<div class="app-row row">

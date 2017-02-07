@@ -1281,6 +1281,31 @@ form #submit {
 	border-radius: 50px;
 }
 
+.applications_pg .section.game-section {
+	background-color: #061f26;
+	padding: 4em 0 5.5em;
+}
+
+.applications_pg .game-col img {
+	width: 100%;
+	margin-bottom: 0.5em;
+}
+
+.applications_pg .game-row-heading img {
+	height: 50px;
+}
+.applications_pg .game-row-heading h2 {
+	color: white;
+	font-size: 30px;
+	line-height: 50px;
+	margin-top: 0;
+}
+.applications_pg .game-row-heading span {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
 @media screen and (min-width: 780px) {
 	#applications {
 		background-image: url("../img/floatingphone.png"), url("../img/teal-dash.png");
