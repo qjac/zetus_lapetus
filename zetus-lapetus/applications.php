@@ -7,7 +7,7 @@ require_once('inc/header.php'); ?>
 		<div class="container" style="position: relative; top: 25%;">
 			<div class="row">
 			   <div class="col s12 m12 l5">
-					<h4><strong>FREE DOWNLOAD</strong></h4>
+					<h2><strong>FREE DOWNLOAD</strong></h2>
 					<h4 style="font-size: 1.35rem; line-height: 1.75rem; margin-top: 10px;">Unlimited exploration within the Zetus Lapetus App for both Apple and Android Devices.</h4>
 			   </div>
 			</div>
@@ -17,18 +17,18 @@ require_once('inc/header.php'); ?>
 		<div class="container">
 			<div class="game-row row">
 				<div class="col s12 m12 l12 game-row-heading">
-				<h2>MADE BY <span><img alt="logo" src="/img/zl-mark-1.png"></span></h2>
+				<h2>MADE BY <span><img style="width: 50px; height: auto;"  alt="logo" src="img/zl-mark-1.png"></span></h2>
 				</div>
 				<div class="col s12 m12 l6 game-col">
-					<img src="/img/mbzetus-2.jpg" alt="#">
+					<img width="100%" src="img/mbzetus-2.jpg" alt="#">
 				</div>
 				<div class="col s12 m12 l3 game-col">
-					<img src="/img/mbzetus-1.jpg" alt="#">
-					<img src="/img/mbzetus-4.jpg" alt="#">
+					<img width="100%" src="img/mbzetus-1.jpg" alt="#">
+					<img width="100%" src="img/mbzetus-4.jpg" alt="#">
 				</div>
 				<div class="col s12 m12 l3 game-col">
-					<img src="/img/mbzetus-5.jpg" alt="#">
-					<img src="/img/mbzetus-3.jpg" alt="#">
+					<img width="100%" src="img/mbzetus-5.jpg" alt="#">
+					<img width="100%" src="img/mbzetus-3.jpg" alt="#">
 				</div><!-- .threequarter -->
 			</div><!-- .row -->
 		</div><!-- .container -->
@@ -37,12 +37,9 @@ require_once('inc/header.php'); ?>
 		<div class="container">
 			<div class="app-row row">
 				   <div class="col s12 m12 l4 app-left">
-						<img src="/img/app-1.png" alt="#">
+						<img width="100%" src="img/app-1.png" alt="#">
 				   </div>
-				   <div class="col s3 m2 l2 arrow-col">
-						<i class="fa fa-chevron-right fa-4x" aria-hidden="true"></i>
-				   </div>
-				   <div class="col s9 m10 l6">
+				   <div class="col s9 m10 l6 offset-l1">
 						<h3>Play, travel and explore</h3>
 						<ul>
 							 <li>user-uploaded and preferred content</li>
@@ -53,12 +50,9 @@ require_once('inc/header.php'); ?>
 			</div><!-- .row -->
 			<div class="app-row row">
 				   <div class="col s12 m12 l4 app-left">
-						<img src="/img/app-2.png" alt="#">
+						<img width="100%" src="img/app-2.png" alt="#">
 				   </div>
-				   <div class="col s3 m2 l2 arrow-col">
-						<i class="fa fa-chevron-right fa-4x" aria-hidden="true"></i>
-				   </div>
-				   <div class="col s9 m10 l6">
+				   <div class="col s9 m10 l6 offset-l1">
 						<h3>Entertainment and Gaming</h3>
 						<ul>
 							 <li>movies, games and interactive shows</li>
@@ -68,12 +62,9 @@ require_once('inc/header.php'); ?>
 			</div><!-- .row -->
 			<div class="app-row row">
 				   <div class="col s12 m12 l4 app-left">
-						<img src="/img/app-3.png" alt="#">
+						<img width="100%" src="img/app-3.png" alt="#">
 				   </div>
-				   <div class="col s3 m2 l2 arrow-col">
-						<i class="fa fa-chevron-right fa-4x" aria-hidden="true"></i>
-				   </div>
-				   <div class="col s9 m10 l6">
+				   <div class="col s9 m10 l6 offset-l1">
 						<h3>Training, Education, and Creativity</h3>
 						<ul>
 							 <li>programs designed for quick cognitive learning </li>
@@ -84,12 +75,9 @@ require_once('inc/header.php'); ?>
 			</div><!-- .row -->
 			<div class="app-row row">
 				   <div class="col s12 m12 l4 app-left">
-						<img src="/img/app-4.png" alt="#">
+						<img width="100%" src="img/app-4.png" alt="#">
 				   </div>
-				   <div class="col s3 m2 l2 arrow-col">
-						<i class="fa fa-chevron-right fa-4x" aria-hidden="true"></i>
-				   </div>
-				   <div class="col s9 m10 l6">
+				   <div class="col s9 m10 l6 offset-l1">
 						<h3>Mental health and meditation</h3>
 						<ul>
 							 <li>manage stress and refocus your mind</li>
@@ -99,12 +87,9 @@ require_once('inc/header.php'); ?>
 			</div><!-- .row -->
 			<div class="app-row row">
 					<div class="col s12 m12 l4 app-left">
-						<img src="/img/app-5.png" alt="#">
+						<img width="100%" src="img/app-5.png" alt="#">
 					</div>
-					<div class="col s3 m2 l2 arrow-col">
-						<i class="fa fa-chevron-right fa-4x" aria-hidden="true"></i>
-					</div>
-					<div class="col s9 m10 l6">
+					<div class="col s9 m10 l6 offset-l1">
 						<h3>Shopping</h3>
 						<ul>
 							<li>virtual store walk-throughs</li>
