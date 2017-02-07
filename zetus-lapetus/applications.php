@@ -17,11 +17,7 @@ require_once('inc/header.php'); ?>
 		<div class="container">
 			<div class="game-row row">
 				<div class="col s12 m12 l12 game-row-heading">
-<<<<<<< HEAD
-				<h2>MADE BY <span><img style="width: 50px; height: auto;"  alt="logo" src="img/zl-mark-1.png"></span></h2>
-=======
-					<h2>MADE BY <span><img alt="logo" src="/img/zl-mark-1.png"></span></h2>
->>>>>>> c47b711301ddfb6e37055d3a51603efc37866a9a
+					<h2>MADE BY <span><img alt="logo" style="width: 50px; height: auto; display: inline-block;"  src="img/zl-mark-1.png"></span></h2>
 				</div>
 				<div class="col s12 m12 l6 game-col">
 					<img width="100%" src="img/mbzetus-2.jpg" alt="#">
@@ -41,67 +37,67 @@ require_once('inc/header.php'); ?>
 		<div class="container">
 			<div class="app-row row">
 					<div class="col s12 m12 l12 app-row-heading">
-						<h4>FEATURED EXPLORATIONS</h4>
+						<h2>FEATURED EXPLORATIONS</h2>
 					</div>
-				   <div class="col s12 m12 l4 app-left">
+				   <div class="col s12 m12 l4 offset-l1 app-left">
 						<img width="100%" src="img/app-1.png" alt="#">
 				   </div>
-				   <div class="col s9 m10 l6 offset-l1">
+				   <div class="col s9 m10 l7">
 						<h3>Play, travel and explore</h3>
 						<ul>
-							 <li>user-uploaded and preferred content</li>
-							 <li>outer space, deep sea, foreign countries</li>
-							 <li>Google Street View + 360 experiences, and more</li>
+							 <li><h5>user-uploaded and preferred content</h5></li>
+							 <li><h5>outer space, deep sea, foreign countries</h5></li>
+							 <li><h5>Google Street View + 360 experiences, and more</h5></li>
 						</ul>
 				   </div><!-- .threequarter -->
 			</div><!-- .row -->
 			<div class="app-row row">
-				   <div class="col s12 m12 l4 app-left">
+				   <div class="col s12 m12 l4 offset-l1 app-left">
 						<img width="100%" src="img/app-2.png" alt="#">
 				   </div>
-				   <div class="col s9 m10 l6 offset-l1">
+				   <div class="col s9 m10 l7">
 						<h3>Entertainment and Gaming</h3>
 						<ul>
-							 <li>movies, games and interactive shows</li>
-							 <li>play sports live with teams around the world</li>
+							 <li><h5>movies, games and interactive shows</h5></li>
+							 <li><h5>play sports live with teams around the world</h5></li>
 						</ul>
 				   </div><!-- .threequarter -->
 			</div><!-- .row -->
 			<div class="app-row row">
-				   <div class="col s12 m12 l4 app-left">
+				   <div class="col s12 m12 l4 offset-l1 app-left">
 						<img width="100%" src="img/app-3.png" alt="#">
 				   </div>
-				   <div class="col s9 m10 l6 offset-l1">
+				   <div class="col s9 m10 l7">
 						<h3>Training, Education, and Creativity</h3>
 						<ul>
-							 <li>programs designed for quick cognitive learning </li>
-							 <li>enjoy feedback and reporting</li>
-							 <li>painting, building, digital rendering</li>
+							 <li><h5>programs designed for quick cognitive learning </h5></li>
+							 <li><h5>enjoy feedback and reporting</h5></li>
+							 <li><h5>painting, building, digital rendering</h5></li>
 						</ul>
 				   </div><!-- .threequarter -->
 			</div><!-- .row -->
 			<div class="app-row row">
-				   <div class="col s12 m12 l4 app-left">
+				   <div class="col s12 m12 l4 offset-l1 app-left">
 						<img width="100%" src="img/app-4.png" alt="#">
 				   </div>
-				   <div class="col s9 m10 l6 offset-l1">
+				   <div class="col s9 m10 l7">
 						<h3>Mental health and meditation</h3>
 						<ul>
-							 <li>manage stress and refocus your mind</li>
-							 <li>sink into immersive relaxation</li>
+							 <li><h5>manage stress and refocus your mind</h5></li>
+							 <li><h5>sink into immersive relaxation</h5></li>
 						</ul>
 				   </div><!-- .threequarter -->
 			</div><!-- .row -->
 			<div class="app-row row">
-					<div class="col s12 m12 l4 app-left">
+					<div class="col s12 m12 l4 offset-l1 app-left">
 						<img width="100%" src="img/app-5.png" alt="#">
 					</div>
-					<div class="col s9 m10 l6 offset-l1">
+					<div class="col s9 m10 l7">
 						<h3>Shopping</h3>
 						<ul>
-							<li>virtual store walk-throughs</li>
-							<li>real shopping experience with up-to-date inventory</li>
-							<li>easy, secure checkouts</li>
+							<li><h5>virtual store walk-throughs</h5></li>
+							<li><h5>real shopping experience with up-to-date inventory</h5></li>
+							<li><h5>easy, secure checkouts</h5></li>
 						</ul>
 					</div><!-- .threequarter -->
 			</div><!-- .row -->

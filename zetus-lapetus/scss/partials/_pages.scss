@@ -163,8 +163,8 @@
     overflow: hidden;
   }
   .section:first-child {
-    @media screen and (min-width: $breakpoint_sm) {
-      background: url('../img/headsetphone.png') no-repeat 150% center;
+    @media screen and (min-width: $breakpoint_md) {
+      background: url('../img/headsetphone.png') no-repeat 225% center;
     }
     h3 {
       line-height: 3rem;
@@ -173,10 +173,23 @@
   }
   .section:nth-child(2) {
     background-color: $dark;
+    padding-bottom: 75px;
   }
   .app-row {
     padding: 25px 0;
     min-height: 200px;
+    h3 {
+      font-size: 1.5rem;
+    }
+  }
+  li {
+    color: $teal;
+    font-size: 1.5rem;
+    h5 {
+      margin: 0;
+      font-family: "Overpass", sans-serif;
+      font-weight: 300;
+    }
   }
 }
 /*shop page*/
