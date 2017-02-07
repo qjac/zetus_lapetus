@@ -4,7 +4,6 @@
 
 #Home .button-big,
 #applications .button-big,
-#vrgoggles .button-big,
 #devices .button-big,
 #core-features .button-big {
   padding: 20px 15px;
@@ -23,16 +22,38 @@
   }
 }
 #Home {
+    h1 {
+      margin-top: 12%;
+    }
 	height: 700px;
+  svg {
+    z-index: 10;
+    left: 10px;
+    margin: 0 0 0 11.15%;
+    position: absolute;
+    @media screen and (max-width: $breakpoint_sm) {
+      display: none;
+    }
+  }
 }
 #core-features {
 	min-height: 700px;
     padding-top: 150px;
-	@media screen and (max-width: $breakpoint_sm) {
       background: url('../img/vr-man.png') bottom left no-repeat;
-      background-size: 100%;
-      padding-top: 50px;
+    @media screen and (max-width: $breakpoint_md) {
+      padding-top: 30px;
+      background-size: 75%;
+      background-position: bottom center;
     }
+    @media screen and (max-width: $breakpoint_sm) {
+      background-size: 100%;
+    }
+}
+#video-section {
+  padding: 0;
+  video {
+    width: 100%;
+  }
 }
 #devices {
   padding: 75px 0;
@@ -41,28 +62,40 @@
     color: $lightgray;
     margin: 25px 0;
   }
+  .container {
+    svg {
+      position: absolute;
+      @media screen and (max-width: $breakpoint_sm) {
+        display: none;
+      }
+    }
+
+  }
   @media screen and (max-width: $breakpoint_sm) {
-      h2 {
-          font-size: 2rem;
-      }
-      .device-icon {
-          font-size: 14rem !important;
-      }
-      h3 {
-          font-size: 1rem;
-      }
+    h2 {
+        font-size: 2rem;
+    }
+    .device-icon {
+        font-size: 14rem !important;
+    }
+    h3 {
+        font-size: 1rem;
+    }
   }
 }
 #applications {
   padding: 150px 0;
   background-color: $background-alternate;
-  height: 800px;
-  background-image: url('../img/teal-dash.png');
-  background-repeat: repeat-x;
-  background-position: 5rem 8rem;
+  height: 900px;
   h4 {
     font-size: 1.5rem;
     line-height: 3.7rem;
+  }
+  @media screen and (max-width: $breakpoint_md) {
+    background-image: url('../img/teal-dash.png');
+    background-repeat: repeat-x;
+    background-position: 5rem 8rem;
+    height: 600px;
   }
   @media screen and (min-width: $breakpoint_md) {
     background-image: url('../img/floatingphone.png'), url('../img/teal-dash.png');
@@ -72,6 +105,9 @@
     h4 {
       font-size: 2rem;
     }
+  }
+  @media screen and (max-width: $breakpoint_sm) {
+    height: 800px;
   }
 }
 #where-to-buy {

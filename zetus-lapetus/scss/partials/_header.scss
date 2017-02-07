@@ -7,6 +7,9 @@
   width:100%;
   z-index:0;
   height: 100%;
+  @media (max-width: $breakpoint_md ) {
+    background: url('../img/header-md-bg.jpg') no-repeat;
+  }
   @media (max-width: $breakpoint_sm ) {
     background: url('../img/header-mobile-bg.jpg') no-repeat;
   }
@@ -56,6 +59,7 @@
   float: right;
   overflow: hidden;
   position: absolute;
+  z-index: 25;
   width: 100%;
   background: #0a1f25;
   border-top: thin solid $teal;

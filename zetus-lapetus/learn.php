@@ -31,13 +31,13 @@ require_once('inc/header.php'); ?>
 							.st0{fill:none;stroke:#D4E2E3;stroke-miterlimit:10;}
 							.st1{fill:none;stroke:#D4E2E3;stroke-miterlimit:10;stroke-dasharray:11.8977,11.8977;}
 						</style>
-												<g>
-												<g>
-													<line class="st0" x1="1.8" y1="1.5" x2="7.8" y2="1.5"/>
-													<line class="st1" x1="19.7" y1="1.5" x2="537.2" y2="1.5"/>
-													<line class="st0" x1="543.2" y1="1.5" x2="549.2" y2="1.5"/>
-												</g>
-											</g>
+						<g>
+							<g>
+								<line class="st0" x1="1.8" y1="1.5" x2="7.8" y2="1.5"/>
+								<line class="st1" x1="19.7" y1="1.5" x2="537.2" y2="1.5"/>
+								<line class="st0" x1="543.2" y1="1.5" x2="549.2" y2="1.5"/>
+							</g>
+						</g>
 					</svg>
 					<img src="img/learn-diagram.png" alt="headset is fully adjustable">
 					<span class="sr-only">Features: adjustable phone pads, adjustable strap, head connector, comfortable design, and touch pads.</span>

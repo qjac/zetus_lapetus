@@ -1,8 +1,15 @@
 <?php
 $page = "Home";
 require_once('inc/header.php'); ?>
+<svg width="20px" height="180%" viewBox="0 0 185% 15"
+     xmlns="http://www.w3.org/2000/svg">
+    <!-- 9-pixel dash, 5-pixel gap -->
+    <line x1="20" y1="10" x2="20" y2="1500"
+          style="stroke-dasharray: 30, 20;
+       stroke: #d9cb70; stroke-width: 3;"/>
+    </svg>
 	<div class="container">
-        <div class="content col s12 m7 l12">
+        <div class="content col s12 m7 l10 offset-l2">
         <h1>a virtual reality headset that pairs with IOS + Android platforms</h1>
             <img class="headset off-mobile" src="img/headsetempty.png" width="600" alt="">
         </div><!-- content col s12 m7 l7 -->
@@ -21,7 +28,7 @@ require_once('inc/header.php'); ?>
 	<section id="applications" class="scroll section">
 		<div class="container">
             <div class="row">
-                <div class="col s12 m6 l7">
+                <div class="col s12 m12 l7">
                     <h2>DOWNLOAD THE APP</h2>
                     <h4>Play games or go inside your favorite movies. Travel anywhere, learn, shop or hang out with friends in VR</h4>
                     <p class="text-center"><a class="button-big button-big-tertiary" href="#">Explore Experiences</a></p>
@@ -29,9 +36,13 @@ require_once('inc/header.php'); ?>
             </div>
 		</div><!-- .container -->
 	</section><!-- #section1 .section -->
-	<section id="vrgoggles" class="scroll section">
-        <div id="player"></div>
-	</section><!-- #section2 .section -->
+	<section id="video-section" class="scroll section">
+        <video id="video" controls>
+            <source src="img/videogame.mp4" type="video/mp4">
+            <source src="img/videogame.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+    </section><!-- #section2 .section -->
 	<section id="devices" class="scroll section">
 		<div class="container">
             <div class="row">
@@ -50,49 +61,6 @@ require_once('inc/header.php'); ?>
             </div>
 		</div><!-- .container -->
 	</section><!-- #section3 .section .page4 -->
-</main>
-<script>
-//    // 2. This code loads the IFrame Player API code asynchronously.
-//    var tag = document.createElement('script');
-//
-//    tag.src = "https://www.youtube.com/iframe_api";
-//    var firstScriptTag = document.getElementsByTagName('script')[0];
-//    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-//
-//    // 3. This function creates an <iframe> (and YouTube player)
-//    //    after the API code downloads.
-//    var player;
-//    function onYouTubeIframeAPIReady() {
-//        player = new YT.Player('player', {
-//            height: '100%',
-//            width: '100%',
-//            videoId: 'M7lc1UVf-VE',
-//            events: {
-//                'onReady': onPlayerReady,
-//                'onStateChange': onPlayerStateChange
-//            }
-//        });
-//    }
-//
-//    // 4. The API will call this function when the video player is ready.
-//    function onPlayerReady(event) {
-//        event.target.playVideo();
-//    }
-//
-//    // 5. The API calls this function when the player's state changes.
-//    //    The function indicates that when playing a video (state=1),
-//    //    the player should play for six seconds and then stop.
-//    var done = false;
-//    function onPlayerStateChange(event) {
-//        if (event.data == YT.PlayerState.PLAYING && !done) {
-//            setTimeout(stopVideo, 6000);
-//            done = true;
-//        }
-//    }
-//    function stopVideo() {
-//        player.stopVideo();
-//    }
-</script>
     <section class="section" id="where-to-buy">
         <div class="container">
             <div class="col s12 m6 l3">
@@ -121,5 +89,24 @@ require_once('inc/header.php'); ?>
             </div><!-- .quarter -->
         </div>
     </section>
+</main>
 <?php require_once('inc/footer.php'); ?>
+<script type="text/javascript">
+    if ( $( window ).width() > 480 ) {
+        var movementStrength = 100;
+        var height = movementStrength / $(window).height();
+        var width = movementStrength / $(window).width();
+        $("#Home").mousemove(function (e) {
+            var pageX = e.pageX - ($(window).width() / 2);
+            var pageY = e.pageY - ($(window).height() / 2);
+            var newvalueX = width * pageX * -1 - 25;
+            var newvalueY = height * pageY * -1 - 100;
+            $('.header').css("background-position", newvalueX - 50 + "px " + newvalueY + "px");
+        });
+    }
+    var video = document.getElementById('video');
+    video.addEventListener('click',function(){
+        video.play();
+    },false);
+</script>
 <!-- <script type="text/javascript" src="js/jquery.scrollify.min.js"></script> -->

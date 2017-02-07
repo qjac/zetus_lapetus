@@ -711,6 +711,9 @@ form #submit {
   width: 100%;
   z-index: 0;
   height: 100%; }
+  @media (max-width: 780px) {
+    #Home {
+      background: url("../img/header-md-bg.jpg") no-repeat; } }
   @media (max-width: 480px) {
     #Home {
       background: url("../img/header-mobile-bg.jpg") no-repeat; } }
@@ -753,6 +756,7 @@ form #submit {
   float: right;
   overflow: hidden;
   position: absolute;
+  z-index: 25;
   width: 100%;
   background: #0a1f25;
   border-top: thin solid #4a818a; }
@@ -927,8 +931,6 @@ form #submit {
 #Home .button-big, #Home .button-big-secondary,
 #applications .button-big,
 #applications .button-big-secondary,
-#vrgoggles .button-big,
-#vrgoggles .button-big-secondary,
 #devices .button-big,
 #devices .button-big-secondary,
 #core-features .button-big,
@@ -940,8 +942,6 @@ form #submit {
     #Home .button-big, #Home .button-big-secondary,
     #applications .button-big,
     #applications .button-big-secondary,
-    #vrgoggles .button-big,
-    #vrgoggles .button-big-secondary,
     #devices .button-big,
     #devices .button-big-secondary,
     #core-features .button-big,
@@ -961,15 +961,34 @@ form #submit {
 
 #Home {
   height: 700px; }
+  #Home h1 {
+    margin-top: 12%; }
+  #Home svg {
+    z-index: 10;
+    left: 10px;
+    margin: 0 0 0 11.15%;
+    position: absolute; }
+    @media screen and (max-width: 480px) {
+      #Home svg {
+        display: none; } }
 
 #core-features {
   min-height: 700px;
-  padding-top: 150px; }
+  padding-top: 150px;
+  background: url("../img/vr-man.png") bottom left no-repeat; }
+  @media screen and (max-width: 780px) {
+    #core-features {
+      padding-top: 30px;
+      background-size: 75%;
+      background-position: bottom center; } }
   @media screen and (max-width: 480px) {
     #core-features {
-      background: url("../img/vr-man.png") bottom left no-repeat;
-      background-size: 100%;
-      padding-top: 50px; } }
+      background-size: 100%; } }
+
+#video-section {
+  padding: 0; }
+  #video-section video {
+    width: 100%; }
 
 #devices {
   padding: 75px 0; }
@@ -977,6 +996,11 @@ form #submit {
     font-size: 20rem !important;
     color: #cccccc;
     margin: 25px 0; }
+  #devices .container svg {
+    position: absolute; }
+    @media screen and (max-width: 480px) {
+      #devices .container svg {
+        display: none; } }
   @media screen and (max-width: 480px) {
     #devices h2, #devices #contact h1, #contact #devices h1, #devices #learn h1, #learn #devices h1 {
       font-size: 2rem; }
@@ -988,13 +1012,16 @@ form #submit {
 #applications {
   padding: 150px 0;
   background-color: #d5e3e4;
-  height: 800px;
-  background-image: url("../img/teal-dash.png");
-  background-repeat: repeat-x;
-  background-position: 5rem 8rem; }
+  height: 900px; }
   #applications h4 {
     font-size: 1.5rem;
     line-height: 3.7rem; }
+  @media screen and (max-width: 780px) {
+    #applications {
+      background-image: url("../img/teal-dash.png");
+      background-repeat: repeat-x;
+      background-position: 5rem 8rem;
+      height: 600px; } }
   @media screen and (min-width: 780px) {
     #applications {
       background-image: url("../img/floatingphone.png"), url("../img/teal-dash.png");
@@ -1003,6 +1030,9 @@ form #submit {
       height: 700px; }
       #applications h4 {
         font-size: 2rem; } }
+  @media screen and (max-width: 480px) {
+    #applications {
+      height: 800px; } }
 
 #where-to-buy {
   background: #d5e3e4; }
@@ -1097,6 +1127,10 @@ form #submit {
 #learn img {
   width: 100%;
   height: auto; }
+#learn .learn-intro {
+  background-image: url("../img/vr_learn.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
 #learn .learn-diagram {
   background-color: #4a818a; }
 #learn .learn-diagram .fa {
@@ -1108,6 +1142,9 @@ form #submit {
   width: 80%;
   display: block;
   margin: 0 auto; }
+  @media screen and (min-width: 780px) {
+    #learn svg {
+      width: 60%; } }
 
 /*privacy page*/
 #privacy-header {
