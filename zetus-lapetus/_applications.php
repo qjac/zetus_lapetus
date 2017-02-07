@@ -17,11 +17,7 @@ require_once('inc/header.php'); ?>
 		<div class="container">
 			<div class="game-row row">
 				<div class="col s12 m12 l12 game-row-heading">
-<<<<<<< HEAD
 				<h2>MADE BY <span><img style="width: 50px; height: auto;"  alt="logo" src="img/zl-mark-1.png"></span></h2>
-=======
-					<h2>MADE BY <span><img alt="logo" src="/img/zl-mark-1.png"></span></h2>
->>>>>>> c47b711301ddfb6e37055d3a51603efc37866a9a
 				</div>
 				<div class="col s12 m12 l6 game-col">
 					<img width="100%" src="img/mbzetus-2.jpg" alt="#">
@@ -37,12 +33,9 @@ require_once('inc/header.php'); ?>
 			</div><!-- .row -->
 		</div><!-- .container -->
 	</section>
-	<section id="devices" class="scroll section app-section">
+	<section id="devices" class="scroll section">
 		<div class="container">
 			<div class="app-row row">
-					<div class="col s12 m12 l12 app-row-heading">
-						<h4>FEATURED EXPLORATIONS</h4>
-					</div>
 				   <div class="col s12 m12 l4 app-left">
 						<img width="100%" src="img/app-1.png" alt="#">
 				   </div>
@@ -109,7 +102,7 @@ require_once('inc/header.php'); ?>
 	</section><!-- #section3 .section .page4 -->
 	<section class="section application-bottom">
 		<div class="container" style="text-align: center;">
-			<h4 class="text-center app-button"><a href="#" style="color: white; cursor: pointer;">Download the App Now</a></h4>
+			<h4 class="text-center app-button">Download the App Now</h4>
 		</div>
 	</section>
 </main>

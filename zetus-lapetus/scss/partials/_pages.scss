@@ -152,7 +152,33 @@
     opacity: 1;
   }
 }
+/*applications page*/
 
+.applications_pg {
+  background-color: $background-alternate;
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  .section:first-child {
+    @media screen and (min-width: $breakpoint_sm) {
+      background: url('../img/headsetphone.png') no-repeat 150% center;
+    }
+    h3 {
+      line-height: 3rem;
+    }
+    padding: 200px 0;
+  }
+  .section:nth-child(2) {
+    background-color: $dark;
+  }
+  .app-row {
+    padding: 25px 0;
+    min-height: 200px;
+  }
+}
 /*shop page*/
 .shop-hero {
   min-height: 300px;
